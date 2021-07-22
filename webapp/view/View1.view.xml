@@ -1,0 +1,40 @@
+<!--<mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Button 
+							type="Emphasized" 
+							press="onCreateFuncionalLocPress"
+							tooltip="{i18n>createFuncLocBtnTooltip}" 
+							icon="sap-icon://add" />
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>-->
+<mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"  xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="Attributes pulled from FSM shell app">
+                <content>
+                    <sap.ui.layout:Grid xmlns:sap.ui.layout="sap.ui.layout" id="grid0">
+                        <sap.ui.layout:content>
+                            <ObjectListItem title="account" intro="Account" icon="sap-icon://account" id="account"/>
+                            <ObjectListItem title="accountID" intro="Account ID" icon="sap-icon://account" id="accountID"/>
+                            <ObjectListItem title="company" intro="Company" icon="sap-icon://factory" id="company"/>
+                            <ObjectListItem title="companyID" intro="Company ID" icon="sap-icon://factory" id="companyID"/>
+                            <ObjectListItem title="user" intro="User" icon="sap-icon://account" id="user"/>
+                            <ObjectListItem title="userID" intro="User ID" icon="sap-icon://account" id="userID"/>
+                            <ObjectListItem title="locale" intro="Selected Locale" icon="sap-icon://globe" id="selLocale"/>
+                        </sap.ui.layout:content>
+                    </sap.ui.layout:Grid>
+                </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
