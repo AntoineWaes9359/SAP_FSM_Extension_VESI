@@ -1,7 +1,0 @@
-{
-  "name": "Hierarchie Ext. SAPUI5",
-  "provider": "AWA_LI_Consulting",
-  "description": "Extension SAPUI5",   
-  "version": "1.0.0", 
-  "icon": "https://raw.githubusercontent.com/SAP-samples/fsm-extension-sample/refactor/samples/service-contract/icon.png"
-}
