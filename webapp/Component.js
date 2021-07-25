@@ -19,7 +19,20 @@ sap.ui.define([
 		init: function () {
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
-
+			
+			// Shell SDK library
+			sap.ui.loader.config({
+			    paths: {
+			        "sap/coresystems/fsm-shell": "https://unpkg.com/fsm-shell@1.5.1/release/fsm-shell-client"
+			    },
+			    shim: {
+			        "sap/coresystems/fsm-shell": {
+			            amd: true,
+			            exports: "FSMShell"
+			        }
+			    },
+			    async: true
+			});
 			// enable routing
 			this.getRouter().initialize();
 

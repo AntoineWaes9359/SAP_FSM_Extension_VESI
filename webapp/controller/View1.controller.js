@@ -1,12 +1,12 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"/*,
-	"sap/coresystems/fsm-shell"*/
+	"sap/ui/core/mvc/Controller",
+	"sap/coresystems/fsm-shell"
 ], function (Controller) {
 	"use strict";
 
 	return Controller.extend("testTree.testTree.controller.View1", {
 		onInit: function () {
-		/*	const oView = this.getView();
+			const oView = this.getView();
 			 const { ShellSdk, SHELL_EVENTS } = FSMShell;
 
 	        const shellSdk = ShellSdk.init(parent, '*');
@@ -33,7 +33,7 @@ sap.ui.define([
             oView.byId("user").setTitle(user);
             oView.byId("userID").setTitle(userId);
             oView.byId("selLocale").setTitle(selectedLocale);
-        });*/
+        });
 		}
 	});
 });
