@@ -103,9 +103,8 @@ sap.ui.define([
 	        })
 	        .then(response => response.json())
             .then(function (json) {
-            	sap.ui.getCore().byId("equipTable");
             	console.log(json);
-            	
+            	//
             	var oViewModel = new JSONModel({
 					equipments: json.data,
 				});
