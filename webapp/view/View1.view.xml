@@ -15,7 +15,8 @@
 		</App>
 	</Shell>
 </mvc:View>-->
-<mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"  xmlns="sap.m">
+<!--GOOD OLD-->
+<!--<mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:ui="sap.ui.table">
     <Shell id="shell">
         <App id="app">
             <pages>
@@ -32,6 +33,42 @@
                             <ObjectListItem title="locale" intro="Selected Locale" icon="sap-icon://globe" id="selLocale"/>
                         </sap.ui.layout:content>
                     </sap.ui.layout:Grid>
+                </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>-->
+<mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:ui="sap.ui.table">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="Attributes pulled from FSM shell app">
+                <content>
+                    <ui:Table
+                    	selectionMode="None"
+						rows="{/ProductCollection}"
+						ariaLabelledBy="title">
+						<ui:extension>
+							<OverflowToolbar style="Clear">
+								<Title id="title" text="Liste des équipements"/>
+							</OverflowToolbar>
+						</ui:extension>
+						<ui:columns>
+							<ui:Column >
+								<Label text="Description" />
+								<ui:template>
+									<Text text="{Name}" wrapping="false" />
+								</ui:template>
+							</ui:Column>
+							<ui:Column>
+								<Label text="Utilisation" />
+								<ui:template>
+									<Input value="{ProductId}"/>
+								</ui:template>
+							</ui:Column>
+						</ui:columns>
+					</ui:Table>
                 </content>
                 </Page>
             </pages>
