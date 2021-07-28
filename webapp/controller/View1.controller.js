@@ -41,7 +41,7 @@ sap.ui.define([
 	            oView.byId("userID").setTitle(userId);
 	            oView.byId("selLocale").setTitle(selectedLocale);*/
 	            //Refresh token
-				function initializeRefreshTokenStrategy(shellSdk, auth) {
+				/*function initializeRefreshTokenStrategy(shellSdk, auth) {
 				  shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, (event) => {
 				    sessionStorage.setItem('token', event.access_token);
 				    setTimeout(() => fetchToken(), (event.expires_in * 1000) - 5000);
@@ -53,9 +53,25 @@ sap.ui.define([
 				  }
 				  sessionStorage.setItem('token', auth.access_token);
 				  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
-				}
+				}*/
+				this._initializeRefreshTokenStrategy(shellSdk, auth);
+				
 	            this._getEqData(cloudHost, account, company);
 	        });
+		},
+		
+		_initializeRefreshTokenStrategy: function(shellSdk, auth){
+			shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, (event) => {
+			    sessionStorage.setItem('token', event.access_token);
+			    setTimeout(() => fetchToken(), (event.expires_in * 1000) - 5000);
+			  });
+			  function fetchToken() {
+			    shellSdk.emit(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, {
+			      response_type: 'token' // request a user token within the context
+			    });
+			  }
+			  sessionStorage.setItem('token', auth.access_token);
+			  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
 		},
 		
 		_getEqData: function(sCloudHost, sAccount, sCompany){
