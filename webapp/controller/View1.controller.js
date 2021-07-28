@@ -40,6 +40,12 @@ sap.ui.define([
 		},
 		
 		_getEqData: function(sCloudHost, sAccount, sCompany){
+			const headers = {
+			    'Content-Type': 'application/json',
+			    'X-Client-ID': 'fsm-extension-sample',
+			    'X-Client-Version': '1.0.0',
+			    'Authorization': `bearer ${sessionStorage.getItem('token')}`,
+			 };
 			//const queryFitter = "{\"query\": \"SELECT it.externalId AS 'externalID', it.name AS 'name' , SUM(mat.quantity) as 'FitterQty' FROM Material mat JOIN Activity ac ON mat.object.objectId=ac.id JOIN ServiceCall sc ON sc.id=ac.object.objectId JOIN Item it ON mat.item = it.id JOIN Person pers ON pers.id = mat.createPerson WHERE sc.id =\'" + scID + "\' AND pers.externalResource = FALSE GROUP BY externalID, name\"}";
 	        const querySite = "{\"query\": \"SELECT eq.name AS 'Name', eq.type AS 'Type', eq.id as 'UUID' FROM Equipment eq WHERE eq.type = 'Site'\"}";
 	        //var sQuery = "{\"query\": \"SELECT it.externalId AS 'externalID', it.name AS 'name' , SUM(mat.quantity) as 'FitterQty' FROM Material mat JOIN Activity ac ON mat.object.objectId=ac.id JOIN ServiceCall sc ON sc.id=ac.object.objectId JOIN Item it ON mat.item = it.id JOIN Person pers ON pers.id = mat.createPerson WHERE sc.id =\'" + scID + "\' AND pers.externalResource = FALSE GROUP BY externalID, name\"}"
