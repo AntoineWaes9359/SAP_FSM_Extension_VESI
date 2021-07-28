@@ -65,7 +65,7 @@
 							<ui:Column>
 								<Label text="Utilisation" />
 								<ui:template>
-									<Input value="{Type}"/>
+									<Text text="{Type}"/>
 								</ui:template>
 							</ui:Column>
 						</ui:columns>
