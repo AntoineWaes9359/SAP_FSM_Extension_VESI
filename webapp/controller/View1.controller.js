@@ -27,13 +27,13 @@ sap.ui.define([
 	                selectedLocale,
 	            } = JSON.parse(event);
 	
-	            oView.byId("account").setTitle(account);
+	           /* oView.byId("account").setTitle(account);
 	            oView.byId("accountID").setTitle(accountId);
 	            oView.byId("company").setTitle(company);
 	            oView.byId("companyID").setTitle(companyId);
 	            oView.byId("user").setTitle(user);
 	            oView.byId("userID").setTitle(userId);
-	            oView.byId("selLocale").setTitle(selectedLocale);
+	            oView.byId("selLocale").setTitle(selectedLocale);*/
 	            
 	            this._getEqData(cloudHost);
 	        });
