@@ -60,7 +60,7 @@ sap.ui.define([
 					property : initializeRefreshTokenStrategy
 				};
 				
-				oInitFunction['property']();
+				oInitFunction['property'](shellSdk, auth);
 				
 				
 	            this._getEqData(cloudHost, account, company);
