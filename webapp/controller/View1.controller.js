@@ -1,7 +1,8 @@
 sap.ui.define([
+	"sap/ui/model/json/JSONModel",
 	"sap/ui/core/mvc/Controller",
 	"sap/coresystems/fsm-shell"
-], function (Controller) {
+], function (JSONModel, Controller) {
 	"use strict";
 
 	return Controller.extend("testTree.testTree.controller.View1", {
