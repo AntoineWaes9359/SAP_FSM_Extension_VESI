@@ -104,7 +104,7 @@ sap.ui.define([
 	        .then(response => response.json())
             .then(function (json) {
             	console.log(json);
-            	//
+            	///
             	var oViewModel = new JSONModel({
 					equipments: json.data,
 				});
