@@ -31,20 +31,7 @@ sap.ui.define([
 	            } = JSON.parse(event);
 				
 				
-				//Refresh token
-				function initializeRefreshTokenStrategy(shellSdk, auth) {
-				  shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, (event) => {
-				    sessionStorage.setItem('token', event.access_token);
-				    setTimeout(() => fetchToken(), (event.expires_in * 1000) - 5000);
-				  });
-				  function fetchToken() {
-				    shellSdk.emit(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, {
-				      response_type: 'token' // request a user token within the context
-				    });
-				  }
-				  sessionStorage.setItem('token', auth.access_token);
-				  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
-				}
+				
 	           /* oView.byId("account").setTitle(account);
 	            oView.byId("accountID").setTitle(accountId);
 	            oView.byId("company").setTitle(company);
@@ -58,6 +45,22 @@ sap.ui.define([
 		},
 		
 		_getEqData: function(sCloudHost, sAccount, sCompany){
+			
+			//Refresh token
+				function initializeRefreshTokenStrategy(shellSdk, auth) {
+				  shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, (event) => {
+				    sessionStorage.setItem('token', event.access_token);
+				    setTimeout(() => fetchToken(), (event.expires_in * 1000) - 5000);
+				  });
+				  function fetchToken() {
+				    shellSdk.emit(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, {
+				      response_type: 'token' // request a user token within the context
+				    });
+				  }
+				  sessionStorage.setItem('token', auth.access_token);
+				  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
+				}
+				
 			const headers = {
 			    'Content-Type': 'application/json',
 			    'X-Client-ID': 'fsm-extension-sample',
