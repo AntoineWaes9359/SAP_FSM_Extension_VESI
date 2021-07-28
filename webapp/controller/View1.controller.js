@@ -55,7 +55,13 @@ sap.ui.define([
 				  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
 				}
 				//this._initializeRefreshTokenStrategy(shellSdk, auth);
-				this.initializeRefreshTokenStrategy(shellSdk, auth)
+				//this.initializeRefreshTokenStrategy(shellSdk, auth)
+				var oInitFunction = {
+					property : initializeRefreshTokenStrategy
+				};
+				
+				oInitFunction['property']();
+				
 				
 	            this._getEqData(cloudHost, account, company);
 	        });
