@@ -46,8 +46,9 @@
                 <Page id="page" title="Attributes pulled from FSM shell app">
                 <content>
                     <ui:Table
+                    	id="equipTable"
                     	selectionMode="None"
-						rows="{/ProductCollection}"
+						rows="{eqModel>/equipments}"
 						ariaLabelledBy="title">
 						<ui:extension>
 							<OverflowToolbar style="Clear">
@@ -64,7 +65,7 @@
 							<ui:Column>
 								<Label text="Utilisation" />
 								<ui:template>
-									<Input value="{ProductId}"/>
+									<Input value="{Type}"/>
 								</ui:template>
 							</ui:Column>
 						</ui:columns>
