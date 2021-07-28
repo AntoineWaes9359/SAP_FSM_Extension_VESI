@@ -7,12 +7,15 @@ sap.ui.define([
 	return Controller.extend("testTree.testTree.controller.View1", {
 		onInit: function () {
 			const oView = this.getView();
-			 const { ShellSdk, SHELL_EVENTS } = FSMShell;
+			const { ShellSdk, SHELL_EVENTS } = FSMShell;
 
 	        const shellSdk = ShellSdk.init(parent, '*');
 	
 	        shellSdk.emit(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, {
 	            clientIdentifier: 'fsm-demo-plugin',
+			    auth: {
+			      response_type: 'token'  // request a user token within the context
+			    }
 	        });
 	        
 	        shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, (event) => {
@@ -26,7 +29,22 @@ sap.ui.define([
 	                userId,
 	                selectedLocale,
 	            } = JSON.parse(event);
-	
+				
+				
+				//Refresh token
+				function initializeRefreshTokenStrategy(shellSdk, auth) {
+				  shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, (event) => {
+				    sessionStorage.setItem('token', event.access_token);
+				    setTimeout(() => fetchToken(), (event.expires_in * 1000) - 5000);
+				  });
+				  function fetchToken() {
+				    shellSdk.emit(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, {
+				      response_type: 'token' // request a user token within the context
+				    });
+				  }
+				  sessionStorage.setItem('token', auth.access_token);
+				  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
+				}
 	           /* oView.byId("account").setTitle(account);
 	            oView.byId("accountID").setTitle(accountId);
 	            oView.byId("company").setTitle(company);
