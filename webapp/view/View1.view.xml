@@ -59,13 +59,13 @@
 							<ui:Column >
 								<Label text="Description" />
 								<ui:template>
-									<Text text="{Name}" wrapping="false" />
+									<Text text="{path : 'eqModel>Name'}" wrapping="false" />
 								</ui:template>
 							</ui:Column>
 							<ui:Column>
 								<Label text="Utilisation" />
 								<ui:template>
-									<Text text="{Type}"/>
+									<Text text="{eqModel>Type}"/>
 								</ui:template>
 							</ui:Column>
 						</ui:columns>

@@ -1,12 +1,21 @@
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
+	"testTree/testTree/model/formatter",
 	"sap/ui/core/mvc/Controller",
-	"sap/coresystems/fsm-shell"
-], function (JSONModel, Controller) {
+	"sap/coresystems/fsm-shell",
+], function (JSONModel, formatter, Controller) {
 	"use strict";
 
 	return Controller.extend("testTree.testTree.controller.View1", {
+		formatter: formatter,
+		
 		onInit: function () {
+		/*	var test = {"equipments" : [{"Name": "Test création de site", "Type": "Site", "UUID": "3D91FAE1DFDA429EA3C00B3147C5B2AA"},
+				{"Name": "CNSD TEST SITE FSM", "Type": "Site", "UUID": "8DED8DE9B96241ADBD8DD71DA362502A"}]}
+
+					var oViewModel = new JSONModel(test);
+				this.getView().setModel(oViewModel, "eqModel");*/
+				
 			const oView = this.getView();
 			const { ShellSdk, SHELL_EVENTS } = FSMShell;
 
@@ -31,7 +40,6 @@ sap.ui.define([
 	                selectedLocale,
 	                auth,
 	            } = JSON.parse(event);
-				
 				
 				
 	           /* oView.byId("account").setTitle(account);
@@ -65,6 +73,8 @@ sap.ui.define([
 				
 				
 	            this._getEqData(cloudHost, account, company);
+	            
+	            
 	        });
 		},
 		
