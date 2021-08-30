@@ -10,6 +10,7 @@ sap.ui.define([
 		formatter: formatter,
 		
 		onInit: function () {
+			//
 		/*	var test = {"equipments" : [{"Name": "Test création de site", "Type": "Site", "UUID": "3D91FAE1DFDA429EA3C00B3147C5B2AA"},
 				{"Name": "CNSD TEST SITE FSM", "Type": "Site", "UUID": "8DED8DE9B96241ADBD8DD71DA362502A"}]}
 
