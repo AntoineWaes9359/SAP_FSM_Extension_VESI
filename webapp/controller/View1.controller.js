@@ -16,7 +16,7 @@ sap.ui.define([
 					var oViewModel = new JSONModel(test);
 				this.getView().setModel(oViewModel, "eqModel");*/
 				
-			const oView = this.getView();
+			//const oView = this.getView();
 			const { ShellSdk, SHELL_EVENTS } = FSMShell;
 
 	        const shellSdk = ShellSdk.init(parent, '*');
@@ -73,8 +73,6 @@ sap.ui.define([
 				
 				
 	            this._getEqData(cloudHost, account, company);
-	            
-	            
 	        });
 		},
 		
@@ -93,9 +91,6 @@ sap.ui.define([
 		},*/
 		
 		_getEqData: function(sCloudHost, sAccount, sCompany){
-			
-			
-				
 			const headers = {
 			    'Content-Type': 'application/json',
 			    'X-Client-ID': 'fsm-extension-sample',
