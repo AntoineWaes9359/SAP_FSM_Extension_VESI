@@ -100,13 +100,14 @@ sap.ui.define([
 			 };
 			//const queryFitter = "{\"query\": \"SELECT it.externalId AS 'externalID', it.name AS 'name' , SUM(mat.quantity) as 'FitterQty' FROM Material mat JOIN Activity ac ON mat.object.objectId=ac.id JOIN ServiceCall sc ON sc.id=ac.object.objectId JOIN Item it ON mat.item = it.id JOIN Person pers ON pers.id = mat.createPerson WHERE sc.id =\'" + scID + "\' AND pers.externalResource = FALSE GROUP BY externalID, name\"}";
 	        const querySite = "{\"query\": \"SELECT eq.name AS 'Name', eq.type AS 'Type', eq.id as 'UUID' FROM Equipment eq WHERE eq.type = 'Site'\"}";
+	        const querySite2 = "{\"query\": \"SELECT eq.code as 'UUID', eq.name AS 'Name', eq.parentId AS 'parentUUID', eq.type AS 'Type' FROM Equipment eq WHERE eq.type IS NOT NULL\"}";
 	        //var sQuery = "{\"query\": \"SELECT it.externalId AS 'externalID', it.name AS 'name' , SUM(mat.quantity) as 'FitterQty' FROM Material mat JOIN Activity ac ON mat.object.objectId=ac.id JOIN ServiceCall sc ON sc.id=ac.object.objectId JOIN Item it ON mat.item = it.id JOIN Person pers ON pers.id = mat.createPerson WHERE sc.id =\'" + scID + "\' AND pers.externalResource = FALSE GROUP BY externalID, name\"}"
 	        
 	        //fetch(`https://${sCloudHost}/api/query/v1?dtos=ReservedMaterial.19;Item.21;Warehouse.15;Material.21;Activity.37;ServiceCall.26&account=${sAccount}&company=${sCompany}`, {
 	        fetch(`https://${sCloudHost}/api/query/v1?dtos=Equipment.22&account=${sAccount}&company=${sCompany}`, {
 	          headers,
 	          method: "POST",
-	          body: querySite
+	          body: querySite2
 	        })
 	        .then(response => response.json())
             .then(function (json) {
