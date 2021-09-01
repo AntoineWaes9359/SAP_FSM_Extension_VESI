@@ -11,7 +11,7 @@ sap.ui.define([
 		
 		onInit: function () {
 			/*test mode with mock data */
-			//this._getStructureOfEquip();
+			this._getStructureOfEquip();
 			/*test mode with mock data */
 			const oView = this.getView();
 			const { ShellSdk, SHELL_EVENTS } = FSMShell;
