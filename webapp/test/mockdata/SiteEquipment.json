@@ -1,0 +1,2448 @@
+{
+	"data": [{
+		"eq": {
+			"code": "9502/0000017/501",
+			"name": "Bât.15",
+			"id": "49B979ACC160496AAA4EB8773D81189A",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000003",
+			"name": "VESI St Denis - Test 4",
+			"id": "01B2C4F691614F999D54D5240CBF2F5C",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002/B01/R+01/123",
+			"name": "Test TAO zone 1",
+			"id": "46E2602ED7C14E8AA394943674664FA2",
+			"type": "Local",
+			"parentId": "15F3B7E3ABA340E0BD7734E7791A4763"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/506",
+			"name": "Bât.31-Polytech",
+			"id": "2D56AE8A60EE43869EE6A3096298E51E",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/509",
+			"name": "Bât.37-Rest. Administratif",
+			"id": "16F39685FC454860B35F2BFA50E04C11",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000001",
+			"name": "VESI St Denis - Test 113 TAO",
+			"id": "83218A5473CC4D5ABF46E04BA877C657",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/519",
+			"name": "Bât.38-PACE",
+			"id": "AC830B556B654DB2A7536B22DE9AB61D",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002/B01/R+02/123",
+			"name": "Test TAO zone 3",
+			"id": "33FCB43088A946DCB6E09C761F972599",
+			"type": "Local",
+			"parentId": "B699FB94EEB24C178F961ED9303AAF86"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/524",
+			"name": "Bât.39-Maison Sciences de l'Ea",
+			"id": "545936E5F4774877BBC7B5EB98B9EBF2",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002/B01",
+			"name": "Batiment 1",
+			"id": "DF1D3C135F514C958E7E696ED06AB5FA",
+			"type": "Batiment",
+			"parentId": "58B30348FA0D467C8D603D985FEAF3F9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529",
+			"name": "Bât.40-Inst.Europ.Membranes",
+			"id": "73B31B053ABB4C6E913CF0A198C4A4F3",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002/B01/R+02/122",
+			"name": "Test TAO zone 4",
+			"id": "9A1AFDA7EA6E439988C63FE3838FE773",
+			"type": "Local",
+			"parentId": "B699FB94EEB24C178F961ED9303AAF86"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/500",
+			"name": "Bât.10-DSI",
+			"id": "1DD60F5C9D504FCBAFC7C399F0BF9AD3",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/537",
+			"name": "Bât.43-reprographie",
+			"id": "1558D6BE51AC4786BAA1731613B3E73F",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/538",
+			"name": "Bat.50-IRM-RMN",
+			"id": "7C40F25FF9CD44DE909F247A90D82555",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002/B01/R+01",
+			"name": "Test TAO Etage 1",
+			"id": "15F3B7E3ABA340E0BD7734E7791A4763",
+			"type": "Etage",
+			"parentId": "DF1D3C135F514C958E7E696ED06AB5FA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002/B01/R+02",
+			"name": "Test TAO Etage 2",
+			"id": "B699FB94EEB24C178F961ED9303AAF86",
+			"type": "Etage",
+			"parentId": "DF1D3C135F514C958E7E696ED06AB5FA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002",
+			"name": "tes TAO12346",
+			"id": "58B30348FA0D467C8D603D985FEAF3F9",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018",
+			"name": "UFR Droit",
+			"id": "A39E2B26D0724897A771F134279F0D93",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017",
+			"name": "UM - Triolet",
+			"id": "7B773F4AC911475CBC409524EA897C53",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/539",
+			"name": "CSU",
+			"id": "362E2851DBDB4C169C133D80FBB539FA",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/501/00NA",
+			"name": "NA",
+			"id": "42BA4643FCD446FE87CDD980AFA6310A",
+			"type": "Etage",
+			"parentId": "49B979ACC160496AAA4EB8773D81189A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/503/0RDC",
+			"name": "RdC",
+			"id": "AF1D283A550F4994AD8D5FBF574A4E32",
+			"type": "Etage",
+			"parentId": "18453E9C486544C88144AD327FF0B61D"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/506/R-01",
+			"name": "Sous-sol",
+			"id": "694651A3CE6A4675BE07142BD1C4E49C",
+			"type": "Etage",
+			"parentId": "2D56AE8A60EE43869EE6A3096298E51E"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/506/R-01/508",
+			"name": "Sous-station EG",
+			"id": "37F80923F4E7488A81F098324CDAE2EE",
+			"type": "Local",
+			"parentId": "694651A3CE6A4675BE07142BD1C4E49C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/509/0RDC",
+			"name": "RDC",
+			"id": "33B496040771411D830BCD73947DFDA5",
+			"type": "Etage",
+			"parentId": "16F39685FC454860B35F2BFA50E04C11"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/519/0RDC",
+			"name": "RDC",
+			"id": "68173D55FF374524AA50D9296E4010EF",
+			"type": "Etage",
+			"parentId": "AC830B556B654DB2A7536B22DE9AB61D"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/509/0RDC/511",
+			"name": "chaufferie",
+			"id": "EA4C61566E124F19964C26F7A15378F0",
+			"type": "Local",
+			"parentId": "33B496040771411D830BCD73947DFDA5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/519/TOIT",
+			"name": "Toiture",
+			"id": "8D3318D302374D8F8ED692A05A6B8818",
+			"type": "Etage",
+			"parentId": "AC830B556B654DB2A7536B22DE9AB61D"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/524/R-01",
+			"name": "Sous-Sol -1",
+			"id": "5C7DF62708414D26BDF857C1374E5E35",
+			"type": "Etage",
+			"parentId": "545936E5F4774877BBC7B5EB98B9EBF2"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/524/0RDC",
+			"name": "RDC",
+			"id": "12CA64ABEB314A45ADB5865C2B8C5FF3",
+			"type": "Etage",
+			"parentId": "545936E5F4774877BBC7B5EB98B9EBF2"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529/TOIT",
+			"name": "Toiture",
+			"id": "343CC015D1B14C09AB39ABDA7CAD563A",
+			"type": "Etage",
+			"parentId": "73B31B053ABB4C6E913CF0A198C4A4F3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/509/0RDC/514",
+			"name": "interieur",
+			"id": "7BEBB0EB51C446CA9FF6F7E88064D147",
+			"type": "Local",
+			"parentId": "33B496040771411D830BCD73947DFDA5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529/0RDC",
+			"name": "RDC",
+			"id": "2BBEEF7A15244BDE98998B1AFB52674C",
+			"type": "Etage",
+			"parentId": "73B31B053ABB4C6E913CF0A198C4A4F3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529/R-01",
+			"name": "Sous-Sol -1",
+			"id": "7E0B5A225F4848168D8EB1F0502C8BFE",
+			"type": "Etage",
+			"parentId": "73B31B053ABB4C6E913CF0A198C4A4F3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/509/0RDC/516",
+			"name": "Toiture",
+			"id": "50FF11EEE1664A24B6348AAC7D1EDB78",
+			"type": "Local",
+			"parentId": "33B496040771411D830BCD73947DFDA5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/539/00NA",
+			"name": "NA",
+			"id": "31862403192B47FDA6A75618DEBEE5A0",
+			"type": "Etage",
+			"parentId": "362E2851DBDB4C169C133D80FBB539FA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/501/00NA/542",
+			"name": "Autocom",
+			"id": "8AD7E4FC8DA6478FA0AE47A9F80D61AE",
+			"type": "Local",
+			"parentId": "42BA4643FCD446FE87CDD980AFA6310A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/519/0RDC/521",
+			"name": "Local CTA",
+			"id": "3B5DBD57E58544DCA3B403ED68AA6071",
+			"type": "Local",
+			"parentId": "68173D55FF374524AA50D9296E4010EF"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/501/00NA/543",
+			"name": "Serveur DSIN",
+			"id": "93ACB37C096B453BAC2CA0D2FBA4623B",
+			"type": "Local",
+			"parentId": "42BA4643FCD446FE87CDD980AFA6310A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/847",
+			"name": "UFR Droit III",
+			"id": "2DDFBB05FB1149E7A7836413A041A32C",
+			"type": "Batiment",
+			"parentId": "A39E2B26D0724897A771F134279F0D93"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/503/0RDC/505",
+			"name": "Toiture",
+			"id": "6C3DF109A5D74961AD2951FC6038BE50",
+			"type": "Local",
+			"parentId": "AF1D283A550F4994AD8D5FBF574A4E32"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/519/TOIT/523",
+			"name": "Toiture",
+			"id": "E6BB7ECAE5784210B5F7B0428B4455EE",
+			"type": "Local",
+			"parentId": "8D3318D302374D8F8ED692A05A6B8818"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/524/R-01/526",
+			"name": "sous-station de chauffage 39.0",
+			"id": "B8F33151881C47CC9C1AD5CE6B93EE8A",
+			"type": "Local",
+			"parentId": "5C7DF62708414D26BDF857C1374E5E35"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529/TOIT/531",
+			"name": "Toiture",
+			"id": "C908A47E42CB4F5BB7E3C846DE3727CD",
+			"type": "Local",
+			"parentId": "343CC015D1B14C09AB39ABDA7CAD563A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+04/163",
+			"name": "Circulation",
+			"id": "D9B264A2986D4C969D204E9A28D7F741",
+			"type": "Local",
+			"parentId": "A42A49D583D349A2B541FA3F415F1F94"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/509/0RDC/512",
+			"name": "exterieur",
+			"id": "6D59224C671242B3997364832037E165",
+			"type": "Local",
+			"parentId": "33B496040771411D830BCD73947DFDA5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/839",
+			"name": "UFR Droit I",
+			"id": "2A602014283945109F8AC90A6F3D567B",
+			"type": "Batiment",
+			"parentId": "A39E2B26D0724897A771F134279F0D93"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/797",
+			"name": "IURC",
+			"id": "841D21D93B16494390030706A13D0808",
+			"type": "Batiment",
+			"parentId": "CF8559DD906540588739D81B5F435816"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/877",
+			"name": "Bâtiment B",
+			"id": "4107B4721AC2470A9460941FC0C427F4",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/881",
+			"name": "Bâtiment D",
+			"id": "8BD27FB408B843F297126F38B0F447B2",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/885",
+			"name": "Bâtiment I",
+			"id": "5D4D7C1E287D4BEE9C1371692061E7C2",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/895",
+			"name": "EUROMOV",
+			"id": "3753CD553D4442B08748B31C38BD19EE",
+			"type": "Batiment",
+			"parentId": "B432947C16B741C285BFD3F73B3DC749"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665",
+			"name": "BU",
+			"id": "AE648AB550EF4C05903879ABDEA7362B",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/889",
+			"name": "Bâtiment K",
+			"id": "F86C4A405814480C89843442EA2CC7CC",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966",
+			"name": "Bât. B - ISEM & IPAG",
+			"id": "D6AAC5E9388844BB99639E6117DF8BFA",
+			"type": "Batiment",
+			"parentId": "D803C02B51634383B0350DBCD7056A04"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967",
+			"name": "Bât. C - UFR Economie",
+			"id": "587B726A059A43B3A728C6DEE1152C26",
+			"type": "Batiment",
+			"parentId": "D803C02B51634383B0350DBCD7056A04"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/969",
+			"name": "Bât. E - Dideris",
+			"id": "69FBE66C379A4268B0C9DCDEE3DD5CD3",
+			"type": "Batiment",
+			"parentId": "D803C02B51634383B0350DBCD7056A04"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/839/0RDC",
+			"name": "RdC",
+			"id": "86746461F4AF4D4D8AE9ADDC050E4AF5",
+			"type": "Etage",
+			"parentId": "2A602014283945109F8AC90A6F3D567B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086",
+			"name": "Bât.E",
+			"id": "8D735F3D1E994D63A4DE6DF2BA0014CA",
+			"type": "Batiment",
+			"parentId": "DD407D3B0A2946D5B0DA9CE13E041629"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844/R-01",
+			"name": "Sous-sol",
+			"id": "F1A62D90D1234837B9EA60D21555F5F9",
+			"type": "Etage",
+			"parentId": "5A167F7CA7B344B1BFB5872D5777D568"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/797/0RDC",
+			"name": "RDC",
+			"id": "8FB04EFF9DFA48A69D834970A1B988AE",
+			"type": "Etage",
+			"parentId": "841D21D93B16494390030706A13D0808"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/098",
+			"name": "Bât.D",
+			"id": "10F8E502D9C14CF788914D190179277E",
+			"type": "Batiment",
+			"parentId": "DD407D3B0A2946D5B0DA9CE13E041629"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115",
+			"name": "Bât.B",
+			"id": "1454E3C1C8B94FD99B7BD757782A1885",
+			"type": "Batiment",
+			"parentId": "DD407D3B0A2946D5B0DA9CE13E041629"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/905",
+			"name": "Bâtiment A",
+			"id": "16EC82C6FA7A466BAFB88774843BBFBA",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/839/R+02",
+			"name": "2e étage",
+			"id": "9BE77066AD4F480BBA18471A56FBEAB4",
+			"type": "Etage",
+			"parentId": "2A602014283945109F8AC90A6F3D567B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529/0RDC/533",
+			"name": "local 55",
+			"id": "8068973720D14F5194E2B015552B2A3B",
+			"type": "Local",
+			"parentId": "2BBEEF7A15244BDE98998B1AFB52674C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529/0RDC/536",
+			"name": "salle de rÃ©union",
+			"id": "276759540158410885D6202BA39C5D7C",
+			"type": "Local",
+			"parentId": "2BBEEF7A15244BDE98998B1AFB52674C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000002/B01/R+01/122",
+			"name": "Test TAO zone 2",
+			"id": "1FB6CFB74627471D8A7E6382E754ED3A",
+			"type": "Local",
+			"parentId": "15F3B7E3ABA340E0BD7734E7791A4763"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/529/R-01/535",
+			"name": "sous-station de chauffage 40.0",
+			"id": "32D1FF50B09D4E78A65FA9FDC0A1AE2B",
+			"type": "Local",
+			"parentId": "7E0B5A225F4848168D8EB1F0502C8BFE"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/883",
+			"name": "Bâtiment E",
+			"id": "028BDAAB75FB486F850D7FF3EB6FD2D2",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/539/00NA/540",
+			"name": "02-Combat",
+			"id": "4A6A3CF04CCB469493ECAF22673CBDE2",
+			"type": "Local",
+			"parentId": "31862403192B47FDA6A75618DEBEE5A0"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/539/00NA/541",
+			"name": "03-Gymnase B et C",
+			"id": "9B43FB812CD84AA19DC96DD7DC47DE1B",
+			"type": "Local",
+			"parentId": "31862403192B47FDA6A75618DEBEE5A0"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000017/503",
+			"name": "Bât.29-IAE",
+			"id": "18453E9C486544C88144AD327FF0B61D",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844",
+			"name": "UFR Droit II",
+			"id": "5A167F7CA7B344B1BFB5872D5777D568",
+			"type": "Batiment",
+			"parentId": "A39E2B26D0724897A771F134279F0D93"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/887",
+			"name": "Bâtiment J",
+			"id": "7F8212D75306437B85BD0B0DFC1CD01B",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/908",
+			"name": "UPM",
+			"id": "AE27C04D6D8B4CD9A4CE3A1FDE70873F",
+			"type": "Batiment",
+			"parentId": "CF8559DD906540588739D81B5F435816"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/655",
+			"name": "Bâtiment G",
+			"id": "AC84F04B18DD402A9F8C3B354F652265",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/968",
+			"name": "Bât. D - UFR AES",
+			"id": "63693206E3F04A0B8ACEAFDE0887878E",
+			"type": "Batiment",
+			"parentId": "D803C02B51634383B0350DBCD7056A04"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/798",
+			"name": "Administratif",
+			"id": "D7CAA7BDE4E2419F803DAF62C0B999C2",
+			"type": "Batiment",
+			"parentId": "B432947C16B741C285BFD3F73B3DC749"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/904",
+			"name": "PALAIS DES SPORTS",
+			"id": "DE774FCBB7B84BE0853DAD1C1CF3D5E7",
+			"type": "Batiment",
+			"parentId": "B432947C16B741C285BFD3F73B3DC749"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/899",
+			"name": "P1",
+			"id": "6DDA23F0EE2847CFBAB110C0431F4A04",
+			"type": "Batiment",
+			"parentId": "B432947C16B741C285BFD3F73B3DC749"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151",
+			"name": "Bât.A",
+			"id": "20CF9B30CA8E452EBEE96C7A92586244",
+			"type": "Batiment",
+			"parentId": "DD407D3B0A2946D5B0DA9CE13E041629"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000024/0NA",
+			"name": "ND",
+			"id": "130FA8F79D7C4E00BB196E0C7FDAC403",
+			"type": "Batiment",
+			"parentId": "CA8087BBD4694A65AC7F719414AD5F02"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/684",
+			"name": "Bât E parking",
+			"id": "559DEBD44FB14F8593D7BCE61F61F89B",
+			"type": "Batiment",
+			"parentId": "CE6E375F88504CFD93F7D96A1059E522"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000025/0NA",
+			"name": "ND",
+			"id": "0A2AC28F505D48BBAB9B88680B5A966F",
+			"type": "Batiment",
+			"parentId": "8057656F0D7240B3B41BEAD53927228A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/839/R-01",
+			"name": "Sous-sol",
+			"id": "23A96474DD2E44B194201D3E5FA599D9",
+			"type": "Etage",
+			"parentId": "2A602014283945109F8AC90A6F3D567B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/883/00NA",
+			"name": "NA",
+			"id": "7D18017538D6469AA5178C9F386687FC",
+			"type": "Etage",
+			"parentId": "028BDAAB75FB486F850D7FF3EB6FD2D2"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+05",
+			"name": "R+5",
+			"id": "045D66930649446A94941B419C81A99B",
+			"type": "Etage",
+			"parentId": "20CF9B30CA8E452EBEE96C7A92586244"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844/0RDC",
+			"name": "RdC",
+			"id": "55F4D68AD95B49EAA5B03D533BA5A540",
+			"type": "Etage",
+			"parentId": "5A167F7CA7B344B1BFB5872D5777D568"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/847/0RDC",
+			"name": "RdC",
+			"id": "40B75C008E72420EB3E41FBB056BC90B",
+			"type": "Etage",
+			"parentId": "2DDFBB05FB1149E7A7836413A041A32C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/847/00NA",
+			"name": "NA",
+			"id": "7255448CB43A4325906B98DA064F2F4B",
+			"type": "Etage",
+			"parentId": "2DDFBB05FB1149E7A7836413A041A32C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/797/TERR",
+			"name": "Terrasse",
+			"id": "580446B6FF0842478D0EE42E27115657",
+			"type": "Etage",
+			"parentId": "841D21D93B16494390030706A13D0808"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/797/00NA",
+			"name": "NA",
+			"id": "3EB4AFA241A548698B57208A1F84BA27",
+			"type": "Etage",
+			"parentId": "841D21D93B16494390030706A13D0808"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/908/0RDC",
+			"name": "RDC",
+			"id": "D4299D60245C4F3A811F3F321F8889E1",
+			"type": "Etage",
+			"parentId": "AE27C04D6D8B4CD9A4CE3A1FDE70873F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/908/00NA",
+			"name": "NA",
+			"id": "FA1515C1890E4E9A9B9E2BAC52264889",
+			"type": "Etage",
+			"parentId": "AE27C04D6D8B4CD9A4CE3A1FDE70873F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/674/00NA",
+			"name": "NA",
+			"id": "CC947C81F2734B878A0E37D28CAA6F80",
+			"type": "Etage",
+			"parentId": "E7075670AFA142069150DEE1FB3851AB"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/875/00NA",
+			"name": "NA",
+			"id": "7331D41F6BB145DC9A37913FE7C68F3D",
+			"type": "Etage",
+			"parentId": "29E47545A66748D5A52458D2E7039545"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/877/00NA",
+			"name": "NA",
+			"id": "1893DE18E6B54266BAABE05BEFD11C93",
+			"type": "Etage",
+			"parentId": "4107B4721AC2470A9460941FC0C427F4"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/879/00NA",
+			"name": "NA",
+			"id": "BF26B10F70E2442594BC29E6DDC229B4",
+			"type": "Etage",
+			"parentId": "0D43A5261FA44ED78AC322463584DD34"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/881/00NA",
+			"name": "NA",
+			"id": "752EF8FF36414643BD50741E3512BAF7",
+			"type": "Etage",
+			"parentId": "8BD27FB408B843F297126F38B0F447B2"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/885/00NA",
+			"name": "NA",
+			"id": "94767A9F072B49C3BBA32916DEA41781",
+			"type": "Etage",
+			"parentId": "5D4D7C1E287D4BEE9C1371692061E7C2"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/887/00NA",
+			"name": "NA",
+			"id": "D3D7CD4426AA43468E72531E38B533F4",
+			"type": "Etage",
+			"parentId": "7F8212D75306437B85BD0B0DFC1CD01B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/889/00NA",
+			"name": "NA",
+			"id": "B7E563B9D11C4EF79D786AF384028909",
+			"type": "Etage",
+			"parentId": "F86C4A405814480C89843442EA2CC7CC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/655/00NA",
+			"name": "NA",
+			"id": "63777DC0C217481EB0B15ED36E23ECE5",
+			"type": "Etage",
+			"parentId": "AC84F04B18DD402A9F8C3B354F652265"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA",
+			"name": "NA",
+			"id": "E3475A05BBAF400DAE4EFED505B4CF85",
+			"type": "Etage",
+			"parentId": "AE648AB550EF4C05903879ABDEA7362B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/798/0RDC",
+			"name": "RdC",
+			"id": "610227FAEE784765B6AFA382EB6C8A7E",
+			"type": "Etage",
+			"parentId": "D7CAA7BDE4E2419F803DAF62C0B999C2"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/904/00NA",
+			"name": "NA",
+			"id": "B92F6713187E4AF8A3C38BFB57671899",
+			"type": "Etage",
+			"parentId": "DE774FCBB7B84BE0853DAD1C1CF3D5E7"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/R+01",
+			"name": "R+1",
+			"id": "65B40A7E07DC4C4084925A5A75E65C38",
+			"type": "Etage",
+			"parentId": "D6AAC5E9388844BB99639E6117DF8BFA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/R+04",
+			"name": "R+4",
+			"id": "A5BF1FFC6FD34B8792D3340853DDF91C",
+			"type": "Etage",
+			"parentId": "D6AAC5E9388844BB99639E6117DF8BFA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967/R-01",
+			"name": "Sous-sol",
+			"id": "C027AD5401B74ED090DB788DB68A6468",
+			"type": "Etage",
+			"parentId": "587B726A059A43B3A728C6DEE1152C26"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+01",
+			"name": "R+1",
+			"id": "F9301102405E4BEAB52366819332626F",
+			"type": "Etage",
+			"parentId": "20CF9B30CA8E452EBEE96C7A92586244"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/895/00NA",
+			"name": "NA",
+			"id": "BED95F8E76F943FEB7901B88E291D9E1",
+			"type": "Etage",
+			"parentId": "3753CD553D4442B08748B31C38BD19EE"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844/R+04/846",
+			"name": "Logement concierge",
+			"id": "6B5AD648CA034F29ABD406EB33F4885A",
+			"type": "Local",
+			"parentId": "35D243D0B2B74D1F9A594409DD03BA71"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/0RDC/155",
+			"name": "LT CTA",
+			"id": "72EEA5DD27F643259A2A8A7ADE76DCBF",
+			"type": "Local",
+			"parentId": "693665225DAC4854A66C0E1EE779C06C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/908/00NA/909",
+			"name": "CHAUFFERIE",
+			"id": "18DAA201552C4E4B8F91CCA8B7F76FE1",
+			"type": "Local",
+			"parentId": "FA1515C1890E4E9A9B9E2BAC52264889"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/674/00NA/686",
+			"name": "Vide sanitaire",
+			"id": "25CC1DC3BDBD4BB4B676DD905B241476",
+			"type": "Local",
+			"parentId": "CC947C81F2734B878A0E37D28CAA6F80"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/879/00NA/880",
+			"name": "Sous-station Bibliothèque",
+			"id": "B4CF838FAD4E402EBA2D9768F6D6290B",
+			"type": "Local",
+			"parentId": "BF26B10F70E2442594BC29E6DDC229B4"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/883/00NA/884",
+			"name": "Sous-station",
+			"id": "1A0D90887FB0452D9794A2D46AC289B2",
+			"type": "Local",
+			"parentId": "7D18017538D6469AA5178C9F386687FC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/664",
+			"name": "Préfa BU",
+			"id": "B1E71938C5F142FA99968B5C0CC36761",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/655/00NA/657",
+			"name": "Toiture",
+			"id": "A7912166B8B54E2787A645F16304F7C6",
+			"type": "Local",
+			"parentId": "63777DC0C217481EB0B15ED36E23ECE5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/669",
+			"name": "Préfa 2",
+			"id": "2D0C52E4B7094A3282DFB409B3872BC2",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/670",
+			"name": "Préfa 3",
+			"id": "CF9F3D35FEBA4CBABC5929465D5D2B4A",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/895/00NA/898",
+			"name": "Toiture",
+			"id": "C2EB4235D9E54748A3458395D49C422C",
+			"type": "Local",
+			"parentId": "BED95F8E76F943FEB7901B88E291D9E1"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+02/167",
+			"name": "Salles",
+			"id": "F21F84EA869A4B1195FAEF3E2A9FCFE6",
+			"type": "Local",
+			"parentId": "56689CB27DE44603BC4C39AFDD71D121"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000024",
+			"name": "Bâtiment historique",
+			"id": "CA8087BBD4694A65AC7F719414AD5F02",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+02",
+			"name": "R+2",
+			"id": "56689CB27DE44603BC4C39AFDD71D121",
+			"type": "Etage",
+			"parentId": "20CF9B30CA8E452EBEE96C7A92586244"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/965/00NA",
+			"name": "NA",
+			"id": "38A5765909314867A177FAF4368ABF0C",
+			"type": "Etage",
+			"parentId": "6DD4EC8BE76845AA96466C84FBF4563F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/674",
+			"name": "Bâtiment A",
+			"id": "E7075670AFA142069150DEE1FB3851AB",
+			"type": "Batiment",
+			"parentId": "CE6E375F88504CFD93F7D96A1059E522"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA",
+			"name": "NA",
+			"id": "59388113233B4CE0877C0333C8AF5A55",
+			"type": "Etage",
+			"parentId": "D6AAC5E9388844BB99639E6117DF8BFA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/0RDC",
+			"name": "RdC",
+			"id": "693665225DAC4854A66C0E1EE779C06C",
+			"type": "Etage",
+			"parentId": "20CF9B30CA8E452EBEE96C7A92586244"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/847/00NA/848",
+			"name": "Chaufferie",
+			"id": "3739149D3FEC40C782EF874077E838E6",
+			"type": "Local",
+			"parentId": "7255448CB43A4325906B98DA064F2F4B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/899/R+01",
+			"name": "1er étage",
+			"id": "D4969378D9E2492D8D3757FECE9640BC",
+			"type": "Etage",
+			"parentId": "6DDA23F0EE2847CFBAB110C0431F4A04"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/908/00NA/910",
+			"name": "Local CTA",
+			"id": "0BD72584AC1B43BCB6B40176D39DACC9",
+			"type": "Local",
+			"parentId": "FA1515C1890E4E9A9B9E2BAC52264889"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/875/00NA/876",
+			"name": "Chaufferie",
+			"id": "680B046A1DD0457EBD6D2BC9D3455979",
+			"type": "Local",
+			"parentId": "7331D41F6BB145DC9A37913FE7C68F3D"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/883/00NA/661",
+			"name": "LT CTA Sud",
+			"id": "F5D45D94779A433FA656DA14F0651372",
+			"type": "Local",
+			"parentId": "7D18017538D6469AA5178C9F386687FC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/887/00NA/888",
+			"name": "Sous-station",
+			"id": "8B4A53A6A768436A822D76DB323E7D7F",
+			"type": "Local",
+			"parentId": "D3D7CD4426AA43468E72531E38B533F4"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/655/00NA/656",
+			"name": "Sous-station",
+			"id": "A5E192EACCF248CB9588591C6DF5B1B5",
+			"type": "Local",
+			"parentId": "63777DC0C217481EB0B15ED36E23ECE5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/659",
+			"name": "SUAPS",
+			"id": "64E55C959A114782931CE27A8F45CE2D",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/667",
+			"name": "Bureau Technique",
+			"id": "A030021D5C924D8CA9EDF4B4CF8FF4D5",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/798/R+01/799",
+			"name": "chaufferie",
+			"id": "75C659584E934D7A92D588DB184DBAC3",
+			"type": "Local",
+			"parentId": "FB2A757A851441D297AF080639B9D9D4"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/R+02/097",
+			"name": "LT CTA R+2 C",
+			"id": "D79EDB47070F449E8848B17FF3BB65B4",
+			"type": "Local",
+			"parentId": "ED9EB0389CDC40FE9DD653231D6BE4F6"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+04/153",
+			"name": "LT CTA R+4",
+			"id": "D0C0CAE43EBF4EB5BD189020D8E42350",
+			"type": "Local",
+			"parentId": "A42A49D583D349A2B541FA3F415F1F94"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/875",
+			"name": "Bâtiment C",
+			"id": "29E47545A66748D5A52458D2E7039545",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/R+02",
+			"name": "R+2",
+			"id": "B5E1B37091F944BFACBA800C546C893D",
+			"type": "Etage",
+			"parentId": "D6AAC5E9388844BB99639E6117DF8BFA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+03",
+			"name": "R+3",
+			"id": "BED838F649F84FF0BF0CA64EA1854034",
+			"type": "Etage",
+			"parentId": "20CF9B30CA8E452EBEE96C7A92586244"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/R+03",
+			"name": "R+3",
+			"id": "83060942B91543A69A57BBEE46AFD335",
+			"type": "Etage",
+			"parentId": "D6AAC5E9388844BB99639E6117DF8BFA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/965/0RDC",
+			"name": "RdC",
+			"id": "4BCD87E5DD76483CBC5CA76FDBC4E49A",
+			"type": "Etage",
+			"parentId": "6DD4EC8BE76845AA96466C84FBF4563F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/847/00NA/856",
+			"name": "Combles",
+			"id": "9ADEF539F9F94E23B3D9DE1C142FD169",
+			"type": "Local",
+			"parentId": "7255448CB43A4325906B98DA064F2F4B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/668",
+			"name": "Préfa 1",
+			"id": "F81476C8BA0D4117B36CD6744B9A9FDA",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/674/00NA/672",
+			"name": "Chaufferie",
+			"id": "3A2D2FF57BC84FC2849BDA7466CD7BD0",
+			"type": "Local",
+			"parentId": "CC947C81F2734B878A0E37D28CAA6F80"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/877/00NA/878",
+			"name": "Sous-station",
+			"id": "B07654A1F6FC4DB59F5B06DFFA0BD9D8",
+			"type": "Local",
+			"parentId": "1893DE18E6B54266BAABE05BEFD11C93"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/883/00NA/662",
+			"name": "LT CTA Nord",
+			"id": "CE96E0CADAE942439F8F1846DC0A7183",
+			"type": "Local",
+			"parentId": "7D18017538D6469AA5178C9F386687FC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/889/00NA/890",
+			"name": "Sous-station",
+			"id": "32C3235CE1DE44C883BCB8FEA7518CF1",
+			"type": "Local",
+			"parentId": "B7E563B9D11C4EF79D786AF384028909"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/689",
+			"name": "LT CTA",
+			"id": "5C1AB0380037428780B53CCA39EE1C05",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/895/00NA/896",
+			"name": "SOUS STATION",
+			"id": "F2C0F91D73FB46FEA3A07C2C09B5A690",
+			"type": "Local",
+			"parentId": "BED95F8E76F943FEB7901B88E291D9E1"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/895/00NA/690",
+			"name": "LT ECS",
+			"id": "9CB4045B49C0453FA6DBD79EE4601521",
+			"type": "Local",
+			"parentId": "BED95F8E76F943FEB7901B88E291D9E1"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/895/00NA/691",
+			"name": "Chaufferie",
+			"id": "7A2483B1B6D64CB1B3D695977AEBBF8D",
+			"type": "Local",
+			"parentId": "BED95F8E76F943FEB7901B88E291D9E1"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967/00NA",
+			"name": "NA",
+			"id": "243E6A77481D4D4E9B38331262F87806",
+			"type": "Etage",
+			"parentId": "587B726A059A43B3A728C6DEE1152C26"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000025",
+			"name": "Jardin des plantes",
+			"id": "8057656F0D7240B3B41BEAD53927228A",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/968/R-01",
+			"name": "Sous-sol",
+			"id": "B3CA245442D94550852B9026220CDDB2",
+			"type": "Etage",
+			"parentId": "63693206E3F04A0B8ACEAFDE0887878E"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/879",
+			"name": "Bâtiment P",
+			"id": "0D43A5261FA44ED78AC322463584DD34",
+			"type": "Batiment",
+			"parentId": "E6F634818E464B93AD5C023933361B31"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/968/00NA",
+			"name": "NA",
+			"id": "3B251F70B8A6443C913349D6D8EF7D6A",
+			"type": "Etage",
+			"parentId": "63693206E3F04A0B8ACEAFDE0887878E"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/839/R+02/841",
+			"name": "Logement",
+			"id": "A46B0A7EA7C9449EB2D133FB11B06FCF",
+			"type": "Local",
+			"parentId": "9BE77066AD4F480BBA18471A56FBEAB4"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/969/00NA",
+			"name": "NA",
+			"id": "9469B5E48EF440C99FCEA11EB38E4891",
+			"type": "Etage",
+			"parentId": "69FBE66C379A4268B0C9DCDEE3DD5CD3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000024/0NA/00NA",
+			"name": "NA",
+			"id": "15354A967AAE4C64ADA2F6DDD6A4F5B5",
+			"type": "Etage",
+			"parentId": "130FA8F79D7C4E00BB196E0C7FDAC403"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000025/0NA/00NA",
+			"name": "NA",
+			"id": "143106BFB47945D4848E83C55C16AA75",
+			"type": "Etage",
+			"parentId": "0A2AC28F505D48BBAB9B88680B5A966F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844/R+04/619",
+			"name": "LT CTA",
+			"id": "EDE722268AB94885BDD95D63B7CDE1CE",
+			"type": "Local",
+			"parentId": "35D243D0B2B74D1F9A594409DD03BA71"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/0RDC",
+			"name": "RDC",
+			"id": "0288566DAF794639BC9DB116FEE13A44",
+			"type": "Etage",
+			"parentId": "8D735F3D1E994D63A4DE6DF2BA0014CA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/839/R-01/843",
+			"name": "Sous-sol cloître",
+			"id": "5B20C6F6B9A946FDB0A760B78478B72D",
+			"type": "Local",
+			"parentId": "23A96474DD2E44B194201D3E5FA599D9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+01",
+			"name": "R+1",
+			"id": "E76E8DC2225C4639B9A791B20EE3822C",
+			"type": "Etage",
+			"parentId": "1454E3C1C8B94FD99B7BD757782A1885"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/797/TERR/677",
+			"name": "Toiture",
+			"id": "8433A048395243E7B1FD25FCE5238183",
+			"type": "Local",
+			"parentId": "580446B6FF0842478D0EE42E27115657"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/0RDC",
+			"name": "RDC",
+			"id": "26867473443149E79A197B2A45DD0CC9",
+			"type": "Etage",
+			"parentId": "1454E3C1C8B94FD99B7BD757782A1885"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/674/00NA/673",
+			"name": "Toiture E",
+			"id": "43FA53E5EE2842F2A5D1D410D9109280",
+			"type": "Local",
+			"parentId": "CC947C81F2734B878A0E37D28CAA6F80"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/877/00NA/688",
+			"name": "LT CTA SS",
+			"id": "50571364B66146668E1E74CF53E6D88E",
+			"type": "Local",
+			"parentId": "1893DE18E6B54266BAABE05BEFD11C93"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/885/00NA/886",
+			"name": "Sous-station",
+			"id": "82B56727DE3E49768192D54FB60BB734",
+			"type": "Local",
+			"parentId": "94767A9F072B49C3BBA32916DEA41781"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/968/00NA/719",
+			"name": "Terrasse Ouest R+5",
+			"id": "9D64CF5341774CD2842F1024F033BB48",
+			"type": "Local",
+			"parentId": "3B251F70B8A6443C913349D6D8EF7D6A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+01/105",
+			"name": "Autocom",
+			"id": "F194F13590644B0FBEB4DBEAB902C8C1",
+			"type": "Local",
+			"parentId": "381E037C6D1141ABA2584E8CF0B330D3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+02/119",
+			"name": "LT CTA R+2 B",
+			"id": "E1DCF3B6BE284C0D8613ED2D70E9127B",
+			"type": "Local",
+			"parentId": "896EBB228C0B45899CC72A23B236A8E6"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093",
+			"name": "Bât.C",
+			"id": "D02E178C6D1F40239ADDBDEF6E8E1382",
+			"type": "Batiment",
+			"parentId": "DD407D3B0A2946D5B0DA9CE13E041629"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+01",
+			"name": "R+1",
+			"id": "381E037C6D1141ABA2584E8CF0B330D3",
+			"type": "Etage",
+			"parentId": "8D735F3D1E994D63A4DE6DF2BA0014CA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/839/R+02/840",
+			"name": "Chaufferie",
+			"id": "9F57D445E7E242BABC693307B26FCB1A",
+			"type": "Local",
+			"parentId": "9BE77066AD4F480BBA18471A56FBEAB4"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/0RDC",
+			"name": "RdC",
+			"id": "A61ECD76BCF14EE69018FFE690B48C29",
+			"type": "Etage",
+			"parentId": "D02E178C6D1F40239ADDBDEF6E8E1382"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/797/00NA/873",
+			"name": "CHAUFFERIE",
+			"id": "0CFA71D6FA05467BBD18D683CA7CD8C6",
+			"type": "Local",
+			"parentId": "3EB4AFA241A548698B57208A1F84BA27"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/R+02",
+			"name": "R+2",
+			"id": "ED9EB0389CDC40FE9DD653231D6BE4F6",
+			"type": "Etage",
+			"parentId": "D02E178C6D1F40239ADDBDEF6E8E1382"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+02",
+			"name": "R+2",
+			"id": "4D42265E913B4A37BD403CB957B8CD9C",
+			"type": "Etage",
+			"parentId": "8D735F3D1E994D63A4DE6DF2BA0014CA"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/663",
+			"name": "Préfa Amicale",
+			"id": "5623A402D8B943B7AA59CB637F1391E0",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/098/R+02",
+			"name": "R+2",
+			"id": "75A5A905DF0941C899F79600F0777C93",
+			"type": "Etage",
+			"parentId": "10F8E502D9C14CF788914D190179277E"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/674/00NA/675",
+			"name": "Local VMC",
+			"id": "4677DA1E830E460A91AE4583192B71CE",
+			"type": "Local",
+			"parentId": "CC947C81F2734B878A0E37D28CAA6F80"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/098/0RDC",
+			"name": "RDC",
+			"id": "914D5DA9AD91421AB4EAA9B98B6E8CF9",
+			"type": "Etage",
+			"parentId": "10F8E502D9C14CF788914D190179277E"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+02",
+			"name": "R+2",
+			"id": "896EBB228C0B45899CC72A23B236A8E6",
+			"type": "Etage",
+			"parentId": "1454E3C1C8B94FD99B7BD757782A1885"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/881/00NA/882",
+			"name": "Sous-station",
+			"id": "57ED155894C1465B844416CC17361CF2",
+			"type": "Local",
+			"parentId": "752EF8FF36414643BD50741E3512BAF7"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+03",
+			"name": "R+3",
+			"id": "C2A3A281ABA444DDA7D52B34514ADE26",
+			"type": "Etage",
+			"parentId": "1454E3C1C8B94FD99B7BD757782A1885"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/671",
+			"name": "Préfa 4",
+			"id": "A049BEDB10C74C55B2DB46A06BB371C0",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04",
+			"name": "R+4",
+			"id": "BF84F6F30BA94F3C85E6A428E6F8F747",
+			"type": "Etage",
+			"parentId": "1454E3C1C8B94FD99B7BD757782A1885"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+04",
+			"name": "R+4",
+			"id": "A42A49D583D349A2B541FA3F415F1F94",
+			"type": "Etage",
+			"parentId": "20CF9B30CA8E452EBEE96C7A92586244"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/883/00NA/658",
+			"name": "Sous-station CTA Pouzin",
+			"id": "06A73944F2E14A6592613FC3E8330409",
+			"type": "Local",
+			"parentId": "7D18017538D6469AA5178C9F386687FC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+02/136",
+			"name": "Salles de TD",
+			"id": "ABA88F3EA43D49EBA6EB86C92881CA7F",
+			"type": "Local",
+			"parentId": "896EBB228C0B45899CC72A23B236A8E6"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+02/137",
+			"name": "Salle TCE",
+			"id": "15D3E1944ACD4625B8EDA8DA214573E7",
+			"type": "Local",
+			"parentId": "896EBB228C0B45899CC72A23B236A8E6"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+05",
+			"name": "R+5",
+			"id": "BE19930C3B3B4450A5798F9F4E3FA801",
+			"type": "Etage",
+			"parentId": "1454E3C1C8B94FD99B7BD757782A1885"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844/R+04/845",
+			"name": "Chaufferie",
+			"id": "3615A05F596A4B7BB639A101773C06E0",
+			"type": "Local",
+			"parentId": "35D243D0B2B74D1F9A594409DD03BA71"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844/R+01",
+			"name": "1er étage",
+			"id": "9E1F0B689C0A42CBB44D21560BE1FB9B",
+			"type": "Etage",
+			"parentId": "5A167F7CA7B344B1BFB5872D5777D568"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019/797/00NA/874",
+			"name": "LOCAL GEG",
+			"id": "F46EF36EB2A84F0681A50447C4E114BA",
+			"type": "Local",
+			"parentId": "3EB4AFA241A548698B57208A1F84BA27"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020/674/00NA/676",
+			"name": "Toiture",
+			"id": "4E366171CFE241319184D6955CABEF44",
+			"type": "Local",
+			"parentId": "CC947C81F2734B878A0E37D28CAA6F80"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/881/00NA/660",
+			"name": "Sous-station GF",
+			"id": "AEE5DDAE82E74497A87BBC24D0E01906",
+			"type": "Local",
+			"parentId": "752EF8FF36414643BD50741E3512BAF7"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/899/R+01/903",
+			"name": "Caféteria",
+			"id": "57F3B722D30F4D969725AB5F42FFDD65",
+			"type": "Local",
+			"parentId": "D4969378D9E2492D8D3757FECE9640BC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/666",
+			"name": "Logement Thies",
+			"id": "92FABA61ED7840E49E442FF796D4CF8C",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021/665/00NA/687",
+			"name": "Sous-station",
+			"id": "A54671652FA44A2283DF3E6CC69592B1",
+			"type": "Local",
+			"parentId": "E3475A05BBAF400DAE4EFED505B4CF85"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/798/0RDC/894",
+			"name": "Toiture",
+			"id": "8A02E69B12434ED88EE9E720466AB61A",
+			"type": "Local",
+			"parentId": "610227FAEE784765B6AFA382EB6C8A7E"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/899/R+01/900",
+			"name": "chaufferie",
+			"id": "DFDC9BB77E244C618F06732F167FB91B",
+			"type": "Local",
+			"parentId": "D4969378D9E2492D8D3757FECE9640BC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/899/R+01/901",
+			"name": "toiture",
+			"id": "FF0072778B0045F0B37D6F1797BD8327",
+			"type": "Local",
+			"parentId": "D4969378D9E2492D8D3757FECE9640BC"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/969/00NA/720",
+			"name": "sous-station",
+			"id": "15C6BFFCC0FF42CEBD64578790497B1A",
+			"type": "Local",
+			"parentId": "9469B5E48EF440C99FCEA11EB38E4891"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000024/0NA/00NA/860",
+			"name": "Chaufferie",
+			"id": "57667F17703E4554A2510B382DE2C0DF",
+			"type": "Local",
+			"parentId": "15354A967AAE4C64ADA2F6DDD6A4F5B5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000025/0NA/00NA/617",
+			"name": "LT PAC",
+			"id": "E6B605D467FB45CB8AC11A7D79B7EB55",
+			"type": "Local",
+			"parentId": "143106BFB47945D4848E83C55C16AA75"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+01/103",
+			"name": "Bureaux",
+			"id": "29E0EF2B79684710891752916BABF3FA",
+			"type": "Local",
+			"parentId": "381E037C6D1141ABA2584E8CF0B330D3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+02/101",
+			"name": "LT CTA R+2 E",
+			"id": "9FF25ACD36C34FBCB102A98C5E3CC71F",
+			"type": "Local",
+			"parentId": "4D42265E913B4A37BD403CB957B8CD9C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+01/162",
+			"name": "Circulation",
+			"id": "652D078DB4EA46E489D3EACD67649D0E",
+			"type": "Local",
+			"parentId": "F9301102405E4BEAB52366819332626F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/904/00NA/680",
+			"name": "LT extracteurs",
+			"id": "56D19D6297054B648A78E3342EE97BE4",
+			"type": "Local",
+			"parentId": "B92F6713187E4AF8A3C38BFB57671899"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/904/00NA/679",
+			"name": "Chaufferie",
+			"id": "899A7D4DAC6041AFBC05BAC180977195",
+			"type": "Local",
+			"parentId": "B92F6713187E4AF8A3C38BFB57671899"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/904/00NA/681",
+			"name": "LT CTA Nord",
+			"id": "92050BB4F0B946F1A50BE4DBDE018C11",
+			"type": "Local",
+			"parentId": "B92F6713187E4AF8A3C38BFB57671899"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000018/844/R+04",
+			"name": "4e étage",
+			"id": "35D243D0B2B74D1F9A594409DD03BA71",
+			"type": "Etage",
+			"parentId": "5A167F7CA7B344B1BFB5872D5777D568"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/904/00NA/682",
+			"name": "LT CTA Sud",
+			"id": "2234B72F3B2D46FB85E33156ACA1B7C9",
+			"type": "Local",
+			"parentId": "B92F6713187E4AF8A3C38BFB57671899"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/904/00NA/683",
+			"name": "Sous-station Gym",
+			"id": "4D2878757AD348C7837DB7D069CECF14",
+			"type": "Local",
+			"parentId": "B92F6713187E4AF8A3C38BFB57671899"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/721",
+			"name": "Amphi Rdc B002",
+			"id": "A14972C7D3F846DCA4C797B6526F90C8",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/968/00NA/805",
+			"name": "chaufferie",
+			"id": "E3AE9DF482B844678B9A7177D329A26A",
+			"type": "Local",
+			"parentId": "3B251F70B8A6443C913349D6D8EF7D6A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/098/R+02/100",
+			"name": "LT CTA R+2 D",
+			"id": "37F8B8F07EBB4EDAA3784CF2430D4435",
+			"type": "Local",
+			"parentId": "75A5A905DF0941C899F79600F0777C93"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+05/123",
+			"name": "LT CTA R+5 B",
+			"id": "6FD7CCA66ABC4EBDB1AFA334578A2957",
+			"type": "Local",
+			"parentId": "BE19930C3B3B4450A5798F9F4E3FA801"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/965/0RDC/807",
+			"name": "toiture Nord",
+			"id": "7DD629C7A79A44F8AF8134EAFCBB2AAF",
+			"type": "Local",
+			"parentId": "4BCD87E5DD76483CBC5CA76FDBC4E49A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/798/R+01",
+			"name": "1er étage",
+			"id": "FB2A757A851441D297AF080639B9D9D4",
+			"type": "Etage",
+			"parentId": "D7CAA7BDE4E2419F803DAF62C0B999C2"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+03/121",
+			"name": "LT CTA R+3 B",
+			"id": "B68B68543538415482DF6EB666F4123D",
+			"type": "Local",
+			"parentId": "C2A3A281ABA444DDA7D52B34514ADE26"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/146",
+			"name": "Espace simulation",
+			"id": "2BBA3F54C4264146B4F10C7D8AB4180F",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022/895/00NA/897",
+			"name": "Extérieur",
+			"id": "278A734A9DDD4C4D86C2C1464C910C97",
+			"type": "Local",
+			"parentId": "BED95F8E76F943FEB7901B88E291D9E1"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/965/00NA/801",
+			"name": "chaufferie",
+			"id": "45E9C2E11CAD48E890AB2DE6A724FCE7",
+			"type": "Local",
+			"parentId": "38A5765909314867A177FAF4368ABF0C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/0RDC/134",
+			"name": "Préparation des corps",
+			"id": "30F0DE31C11346BFA41192249FD3ECC2",
+			"type": "Local",
+			"parentId": "26867473443149E79A197B2A45DD0CC9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/965/00NA/816",
+			"name": "local CTA",
+			"id": "1A083BAD37EE409C8C8B604400E0D1D0",
+			"type": "Local",
+			"parentId": "38A5765909314867A177FAF4368ABF0C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/810",
+			"name": "Terrasse MDE R+2",
+			"id": "63DFC71D73A94F35999F837120A75FC9",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967/R-01/717",
+			"name": "LT CTA123",
+			"id": "59F546C71BFE4570AF63A88012CD6208",
+			"type": "Local",
+			"parentId": "C027AD5401B74ED090DB788DB68A6468"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+01/090",
+			"name": "Circulation",
+			"id": "2EC07D3873484048B3D3E9D551F2C203",
+			"type": "Local",
+			"parentId": "381E037C6D1141ABA2584E8CF0B330D3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/145",
+			"name": "Bureaux B1",
+			"id": "4338A0329168429584446EF9F7F41875",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/0RDC/170",
+			"name": "LT CTA RdC B",
+			"id": "7DE24003020C400CA08B31EC4A626EBF",
+			"type": "Local",
+			"parentId": "26867473443149E79A197B2A45DD0CC9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/811",
+			"name": "Toiture R+5",
+			"id": "8B1F87D1FAED42DA913B6737AA1CF857",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/802",
+			"name": "Chaufferie",
+			"id": "61762F25B7F246508CDEDB99B336EA48",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/808",
+			"name": "Salle des machines",
+			"id": "DFD68E9AF97A4BAF808CA52DACC67E72",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/803",
+			"name": "Local CTA",
+			"id": "86C6F06B6068486591639A9BD5FC5520",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/809",
+			"name": "Local onduleur",
+			"id": "74B90964B37D43339586EFC28404C94B",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/968/00NA/729",
+			"name": "Terrasse Est",
+			"id": "FB3BB7A72A704AEDBD2E2CE6DFA918D2",
+			"type": "Local",
+			"parentId": "3B251F70B8A6443C913349D6D8EF7D6A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/126",
+			"name": "Sanitaires",
+			"id": "D816802171204FF39D612BF1775F0A59",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+05/164",
+			"name": "Circulation",
+			"id": "7F12AADE359642AFA9FCFFBA1A865F2E",
+			"type": "Local",
+			"parentId": "045D66930649446A94941B419C81A99B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/817",
+			"name": "Amphi Rdc",
+			"id": "B7FABB6A9ABD47568572D2C04853E4E4",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+01/142",
+			"name": "Local détente",
+			"id": "F957458B95364A68ADD6BEE662CCB4AB",
+			"type": "Local",
+			"parentId": "E76E8DC2225C4639B9A791B20EE3822C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/0RDC/102",
+			"name": "Local dechets",
+			"id": "991C7D7AFBE94C5BB521B4536FB2C5EE",
+			"type": "Local",
+			"parentId": "0288566DAF794639BC9DB116FEE13A44"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/966/00NA/722",
+			"name": "Amphi Rdc B010",
+			"id": "E9C01DD820EB4EB3AE1482B7976CA0C1",
+			"type": "Local",
+			"parentId": "59388113233B4CE0877C0333C8AF5A55"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967/00NA/804",
+			"name": "chaufferie",
+			"id": "42C6138A73934DBD8ECEAB1160352014",
+			"type": "Local",
+			"parentId": "243E6A77481D4D4E9B38331262F87806"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967/00NA/718",
+			"name": "Terrasse Ouest R+5",
+			"id": "7E73C6DFF09B401D989AAFD68AB8710D",
+			"type": "Local",
+			"parentId": "243E6A77481D4D4E9B38331262F87806"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967/00NA/727",
+			"name": "Terrasse Est R+5",
+			"id": "847EAB8D8C8A4BF184DCFD0DB03C6D1E",
+			"type": "Local",
+			"parentId": "243E6A77481D4D4E9B38331262F87806"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/967/R-01/728",
+			"name": "LT CTA56",
+			"id": "1D4DB5A660844CC58BEE81C507B0AB64",
+			"type": "Local",
+			"parentId": "C027AD5401B74ED090DB788DB68A6468"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/968/00NA/818",
+			"name": "Local CTA",
+			"id": "4B062040EBF54A6F82C5A3E685AD24DE",
+			"type": "Local",
+			"parentId": "3B251F70B8A6443C913349D6D8EF7D6A"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000024/0NA/00NA/870",
+			"name": "Salle dissection",
+			"id": "D9082842039C47AB8ACE88700DE9B9F3",
+			"type": "Local",
+			"parentId": "15354A967AAE4C64ADA2F6DDD6A4F5B5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/969/00NA/730",
+			"name": "Terrasse",
+			"id": "6367506DBE5B47D5BB01D490011D17FB",
+			"type": "Local",
+			"parentId": "9469B5E48EF440C99FCEA11EB38E4891"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000024/0NA/00NA/871",
+			"name": "Morgue",
+			"id": "990CC964754F4FE3AD0C2E02DE82B963",
+			"type": "Local",
+			"parentId": "15354A967AAE4C64ADA2F6DDD6A4F5B5"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000025/0NA/00NA/618",
+			"name": "Serres",
+			"id": "B43EDA93AC844C0989789B7ECBE74749",
+			"type": "Local",
+			"parentId": "143106BFB47945D4848E83C55C16AA75"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/0RDC/088",
+			"name": "LT Production",
+			"id": "A76E2A79A0704C709C8D1C689A3C81D6",
+			"type": "Local",
+			"parentId": "0288566DAF794639BC9DB116FEE13A44"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+01/104",
+			"name": "TGBT",
+			"id": "F8CA07C8428544A391C665F5AEA47A8F",
+			"type": "Local",
+			"parentId": "381E037C6D1141ABA2584E8CF0B330D3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+02/092",
+			"name": "Circulation",
+			"id": "33DD10AC1BA2473288B550A6BEC34745",
+			"type": "Local",
+			"parentId": "4D42265E913B4A37BD403CB957B8CD9C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/086/R+01/106",
+			"name": "Technique",
+			"id": "403FA601FBAC461E9853DB47C952A817",
+			"type": "Local",
+			"parentId": "381E037C6D1141ABA2584E8CF0B330D3"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/0RDC/095",
+			"name": "LT CTA RdC C",
+			"id": "3AA1619A9D13437599DFAC8288FCC592",
+			"type": "Local",
+			"parentId": "A61ECD76BCF14EE69018FFE690B48C29"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/0RDC/111",
+			"name": "WC H",
+			"id": "9E2D35DCC2D34A789E59C8EB5120CFE8",
+			"type": "Local",
+			"parentId": "A61ECD76BCF14EE69018FFE690B48C29"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+03/138",
+			"name": "Salles de TD",
+			"id": "A89FBC63BE7B4FD88FC5E7F66FEA5E67",
+			"type": "Local",
+			"parentId": "C2A3A281ABA444DDA7D52B34514ADE26"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/130",
+			"name": "Labo d'anatomie",
+			"id": "F10035ADF68E4749AA9E6129AA49E52E",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026",
+			"name": "UFR MEDECINE ADV",
+			"id": "DD407D3B0A2946D5B0DA9CE13E041629",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/0RDC/113",
+			"name": "WC F",
+			"id": "07DA6EAA7D204F8AA91C0B7089C291B0",
+			"type": "Local",
+			"parentId": "A61ECD76BCF14EE69018FFE690B48C29"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+05/148",
+			"name": "Bureaux B1",
+			"id": "ED107BD9A37F480DB17A13AE7FC49E07",
+			"type": "Local",
+			"parentId": "BE19930C3B3B4450A5798F9F4E3FA801"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/129",
+			"name": "Maintenance labo",
+			"id": "EEF0A17D24684490907007A2FDF5871F",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/R+02/112",
+			"name": "LT CTA",
+			"id": "519B78E3BC0A4CE0A092E0A84C9FE9EC",
+			"type": "Local",
+			"parentId": "ED9EB0389CDC40FE9DD653231D6BE4F6"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/098/0RDC/172",
+			"name": "LT CTA RdC D",
+			"id": "23002E72C9FB4604A4C102BE2C3AA3A6",
+			"type": "Local",
+			"parentId": "914D5DA9AD91421AB4EAA9B98B6E8CF9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/093/R+02/114",
+			"name": "WC F",
+			"id": "4C08EB1E8208448E8863AA7CD8B4D334",
+			"type": "Local",
+			"parentId": "ED9EB0389CDC40FE9DD653231D6BE4F6"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/098/0RDC/174",
+			"name": "WC",
+			"id": "5A96479BBF4B44BB825BC176811E11EA",
+			"type": "Local",
+			"parentId": "914D5DA9AD91421AB4EAA9B98B6E8CF9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/127",
+			"name": "407 - accueil",
+			"id": "D60E1D0090D646ABA2C3D5D7EF598AE2",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+01/117",
+			"name": "LT CTA R+1 B",
+			"id": "1D7384DA11DE4804AE24B8F12C2C4FD7",
+			"type": "Local",
+			"parentId": "E76E8DC2225C4639B9A791B20EE3822C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023/965",
+			"name": "Bât. A - Bibliothèque",
+			"id": "6DD4EC8BE76845AA96466C84FBF4563F",
+			"type": "Batiment",
+			"parentId": "D803C02B51634383B0350DBCD7056A04"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/098/R+02/173",
+			"name": "Régie",
+			"id": "989D5082DB9D485A8D024E672E58DE4B",
+			"type": "Local",
+			"parentId": "75A5A905DF0941C899F79600F0777C93"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000019",
+			"name": "UFR MEDECINE UPM-IURC",
+			"id": "CF8559DD906540588739D81B5F435816",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+01/140",
+			"name": "Bureaux B1",
+			"id": "87AFFAE01A06404289D4516BEE3C1AB4",
+			"type": "Local",
+			"parentId": "E76E8DC2225C4639B9A791B20EE3822C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+01/141",
+			"name": "Bureaux B2",
+			"id": "9776EAB933584B9EA6586C12499E5038",
+			"type": "Local",
+			"parentId": "E76E8DC2225C4639B9A791B20EE3822C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+03/139",
+			"name": "Labo langues",
+			"id": "0D6C6A48109A40AAACB1BC40B4920ED0",
+			"type": "Local",
+			"parentId": "C2A3A281ABA444DDA7D52B34514ADE26"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+05/124",
+			"name": "Vestiaires H",
+			"id": "8AE0B8289E1644BFBB537E9F769EB323",
+			"type": "Local",
+			"parentId": "BE19930C3B3B4450A5798F9F4E3FA801"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+05/149",
+			"name": "Bureaux B2",
+			"id": "49EE580E6B4541979D02166833A7A3B4",
+			"type": "Local",
+			"parentId": "BE19930C3B3B4450A5798F9F4E3FA801"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+05/150",
+			"name": "Enseignement",
+			"id": "948CEC642A724F748D62D6DBC3DBF7E7",
+			"type": "Local",
+			"parentId": "BE19930C3B3B4450A5798F9F4E3FA801"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/128",
+			"name": "Animalerie",
+			"id": "D941D23383F94F4D8A535ADEDB2A93A2",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/144",
+			"name": "Espace Réception",
+			"id": "24D292DAA7E54D2DAA3E38166F840073",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/143",
+			"name": "Micro chirurgie",
+			"id": "FB6A718C169B4A0EBCCF039D63D4BC92",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/0RDC/135",
+			"name": "Salle de convivialité",
+			"id": "E55E7BFE8BE64D06847C50D624250F59",
+			"type": "Local",
+			"parentId": "26867473443149E79A197B2A45DD0CC9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/R+04/147",
+			"name": "Debriefing",
+			"id": "EE33E1760B5143CDB8F6FF906899070C",
+			"type": "Local",
+			"parentId": "BF84F6F30BA94F3C85E6A428E6F8F747"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/0RDC/132",
+			"name": "Bureaux B1",
+			"id": "3FA28AE8A3B64CCEB82520E9EC96AEEF",
+			"type": "Local",
+			"parentId": "26867473443149E79A197B2A45DD0CC9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/115/0RDC/133",
+			"name": "Bureaux B2",
+			"id": "601C759F8AC240A2BEB9B044B9F490C7",
+			"type": "Local",
+			"parentId": "26867473443149E79A197B2A45DD0CC9"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+04/156",
+			"name": "LT CTA exterieur",
+			"id": "BAE7C758BCB24403965C97BB8E74E9AA",
+			"type": "Local",
+			"parentId": "A42A49D583D349A2B541FA3F415F1F94"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/0RDC/159",
+			"name": "Cuisine Crous",
+			"id": "A0F3B7B3E51149048AC80CA413085319",
+			"type": "Local",
+			"parentId": "693665225DAC4854A66C0E1EE779C06C"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+05/158",
+			"name": "LT CTA exterieur",
+			"id": "968FE199741C446C9F5F0833F2D900EC",
+			"type": "Local",
+			"parentId": "045D66930649446A94941B419C81A99B"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+01/161",
+			"name": "WC",
+			"id": "B8BE8E6EE5AB418F8F61D6E5D6C62770",
+			"type": "Local",
+			"parentId": "F9301102405E4BEAB52366819332626F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+01/165",
+			"name": "Salles",
+			"id": "722C2A25DFEC498C8064E1E0103E6224",
+			"type": "Local",
+			"parentId": "F9301102405E4BEAB52366819332626F"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000026/151/R+03/169",
+			"name": "Salles",
+			"id": "960FDDACDF4A405B936AE04B81DB153D",
+			"type": "Local",
+			"parentId": "BED838F649F84FF0BF0CA64EA1854034"
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000020",
+			"name": "UFR ODONTOLOGIE",
+			"id": "CE6E375F88504CFD93F7D96A1059E522",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000022",
+			"name": "UFR STAPS",
+			"id": "B432947C16B741C285BFD3F73B3DC749",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000021",
+			"name": "UFR Pharmacie",
+			"id": "E6F634818E464B93AD5C023933361B31",
+			"type": "Site",
+			"parentId": null
+		}
+	}, {
+		"eq": {
+			"code": "9502/0000023",
+			"name": "UM - SITE RICHTER",
+			"id": "D803C02B51634383B0350DBCD7056A04",
+			"type": "Site",
+			"parentId": null
+		}
+	}],
+	"pageSize": 1000,
+	"currentPage": 1,
+	"lastPage": 1,
+	"totalObjectCount": 305,
+	"truncated": false
+}
