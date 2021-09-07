@@ -15,6 +15,14 @@
 			data-sap-ui-async="true"
 			data-sap-ui-frameOptions="allow">
 		</script>
+		<script>
+			sap.ui.getCore().attachInit(function() {
+			    new sap.m.Shell({
+			        appWidthLimited: false, // Add this line
+			        ..
+			    }).placeAt("content");
+			});
+		</script>
 	</head>
 	<body class="sapUiBody">
 		<div data-sap-ui-component data-name="testTree.testTree" data-id="container" data-settings='{"id" : "testTree"}'></div>
