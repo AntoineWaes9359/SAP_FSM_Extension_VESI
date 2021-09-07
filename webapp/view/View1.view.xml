@@ -15,7 +15,7 @@
 								<ToolbarSpacer/>
 								<Button
 									type="Accept"
-									text="Sélectionner cet équipement"
+									text="Valider la sélection"
 									press="onSelectEq">
 								</Button>
 							</OverflowToolbar>
