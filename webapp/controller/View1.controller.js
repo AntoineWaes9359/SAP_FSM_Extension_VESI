@@ -11,7 +11,7 @@ sap.ui.define([
 		
 		onInit: function () {
 			/*test mode with mock data */
-			//this._getStructureOfEquip();
+			this._getStructureOfEquip();
 			/*test mode with mock data */
 			const oView = this.getView();
 			const { ShellSdk, SHELL_EVENTS } = FSMShell;
@@ -48,8 +48,9 @@ sap.ui.define([
 	            oView.byId("userID").setTitle(userId);
 	            oView.byId("selLocale").setTitle(selectedLocale);*/
 	            
+	            //test with mock data, block comment temporaily
 	            //Refresh token
-				function initializeRefreshTokenStrategy(shellSdk, auth) {
+				/*function initializeRefreshTokenStrategy(shellSdk, auth) {
 				  shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, (event) => {
 				    sessionStorage.setItem('token', event.access_token);
 				    setTimeout(() => fetchToken(), (event.expires_in * 1000) - 5000);
@@ -61,18 +62,18 @@ sap.ui.define([
 				  }
 				  sessionStorage.setItem('token', auth.access_token);
 				  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
-				}
+				}*/
 				//this._initializeRefreshTokenStrategy(shellSdk, auth);
 				//this.initializeRefreshTokenStrategy(shellSdk, auth)
-				var oInitFunction = {
+				/*var oInitFunction = {
 					property : initializeRefreshTokenStrategy
 				};
 				
 				oInitFunction['property'](shellSdk, auth);
 				
 				
-	            this._getEqData(cloudHost, account, company);
-	            
+	            this._getEqData(cloudHost, account, company);*/
+	            //test with mock data, block comment temporaily
 	            
 	        });
 		},
