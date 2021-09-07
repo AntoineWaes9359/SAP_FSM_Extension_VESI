@@ -2,7 +2,7 @@ sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"testTree/testTree/model/formatter",
 	"sap/ui/core/mvc/Controller",
-	"sap/coresystems/fsm-shell",
+	"sap/coresystems/fsm-shell"
 ], function (JSONModel, formatter, Controller) {
 	"use strict";
 
@@ -10,24 +10,21 @@ sap.ui.define([
 		formatter: formatter,
 		
 		onInit: function () {
-
-		/*	var test = {"equipments" : [{"Name": "Test création de site", "Type": "Site", "UUID": "3D91FAE1DFDA429EA3C00B3147C5B2AA"},
-				{"Name": "CNSD TEST SITE FSM", "Type": "Site", "UUID": "8DED8DE9B96241ADBD8DD71DA362502A"}]}
-
-					var oViewModel = new JSONModel(test);
-				this.getView().setModel(oViewModel, "eqModel");*/
-				
-			//const oView = this.getView();
+			/*test mode with mock data */
+			this._getStructureOfEquip();
+			/*test mode with mock data */
+			const oView = this.getView();
 			const { ShellSdk, SHELL_EVENTS } = FSMShell;
 
 	        const shellSdk = ShellSdk.init(parent, '*');
-	
+			
 	        shellSdk.emit(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, {
 	            clientIdentifier: 'fsm-demo-plugin',
 			    auth: {
 			      response_type: 'token'  // request a user token within the context
 			    }
 	        });
+	        
 	        
 	        shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, (event) => {
 	            const {
@@ -50,8 +47,10 @@ sap.ui.define([
 	            oView.byId("user").setTitle(user);
 	            oView.byId("userID").setTitle(userId);
 	            oView.byId("selLocale").setTitle(selectedLocale);*/
+	            
+	            //test with mock data, block comment temporaily
 	            //Refresh token
-				function initializeRefreshTokenStrategy(shellSdk, auth) {
+				/*function initializeRefreshTokenStrategy(shellSdk, auth) {
 				  shellSdk.on(SHELL_EVENTS.Version1.REQUIRE_AUTHENTICATION, (event) => {
 				    sessionStorage.setItem('token', event.access_token);
 				    setTimeout(() => fetchToken(), (event.expires_in * 1000) - 5000);
@@ -63,18 +62,44 @@ sap.ui.define([
 				  }
 				  sessionStorage.setItem('token', auth.access_token);
 				  setTimeout(() => fetchToken(), (auth.expires_in * 1000) - 5000);
-				}
+				}*/
 				//this._initializeRefreshTokenStrategy(shellSdk, auth);
 				//this.initializeRefreshTokenStrategy(shellSdk, auth)
-				var oInitFunction = {
+				/*var oInitFunction = {
 					property : initializeRefreshTokenStrategy
 				};
 				
 				oInitFunction['property'](shellSdk, auth);
 				
 				
-	            this._getEqData(cloudHost, account, company);
+	            this._getEqData(cloudHost, account, company);*/
+	            //test with mock data, block comment temporaily
+	            
 	        });
+		},
+		
+		onSelectEq: function(oEvent){
+			const { ShellSdk, SHELL_EVENTS } = FSMShell;
+			var oTreeTable = this.byId("equipTable");
+			var iIndex = oTreeTable.getSelectedIndices()[0];
+			var sEqID = oTreeTable.getRows()[1].getBindingContext("eqModel").getObject().id;
+			
+			// Init ShellSDk
+			const shellSdk = ShellSdk.init(window.parent, '*');
+			shellSdk.emit(SHELL_EVENTS.Version1.TO_APP,{
+				id:'addEquipmentId',
+				payload:{id:sEqID}
+			});
+		},
+		/*test mode with mock data to get the hierarchy of equipments*/
+		_getStructureOfEquip: function(){
+			var oSiteEquipment = new JSONModel();
+			oSiteEquipment.loadData("test/mockdata/SiteEquipmentSorted.json");
+			if(this.getView().getModel("eqModel")){
+				this.getView().getModel("eqModel").setData(oSiteEquipment.getData());
+			}else{
+				this.getView().setModel(oSiteEquipment, "eqModel");
+			}
 		},
 		
 		/*_initializeRefreshTokenStrategy: function(shellSdk, auth){
@@ -99,16 +124,14 @@ sap.ui.define([
 			    'Authorization': `bearer ${sessionStorage.getItem('token')}`,
 			 };
 			//const queryFitter = "{\"query\": \"SELECT it.externalId AS 'externalID', it.name AS 'name' , SUM(mat.quantity) as 'FitterQty' FROM Material mat JOIN Activity ac ON mat.object.objectId=ac.id JOIN ServiceCall sc ON sc.id=ac.object.objectId JOIN Item it ON mat.item = it.id JOIN Person pers ON pers.id = mat.createPerson WHERE sc.id =\'" + scID + "\' AND pers.externalResource = FALSE GROUP BY externalID, name\"}";
-	        const querySite = "{\"query\": \"SELECT eq.name AS 'Name', eq.type AS 'Type', eq.id as 'UUID' FROM Equipment eq WHERE eq.type = 'Site'\"}";
-	        const querySite2 = "{\"query\": \"SELECT eq.code as 'UUID', eq.name AS 'Name', eq.parentId AS 'parentUUID', eq.type AS 'Type' FROM Equipment eq WHERE eq.type IS NOT NULL\"}";
-
+	        const querySite = "{\"query\": \"SELECT eq.name AS 'Name', eq.type AS 'Type', eq.id as 'UUID', eq.parentId as 'Parent' FROM Equipment eq WHERE eq.type = 'Site'\"}";
 	        //var sQuery = "{\"query\": \"SELECT it.externalId AS 'externalID', it.name AS 'name' , SUM(mat.quantity) as 'FitterQty' FROM Material mat JOIN Activity ac ON mat.object.objectId=ac.id JOIN ServiceCall sc ON sc.id=ac.object.objectId JOIN Item it ON mat.item = it.id JOIN Person pers ON pers.id = mat.createPerson WHERE sc.id =\'" + scID + "\' AND pers.externalResource = FALSE GROUP BY externalID, name\"}"
 	        
 	        //fetch(`https://${sCloudHost}/api/query/v1?dtos=ReservedMaterial.19;Item.21;Warehouse.15;Material.21;Activity.37;ServiceCall.26&account=${sAccount}&company=${sCompany}`, {
 	        fetch(`https://${sCloudHost}/api/query/v1?dtos=Equipment.22&account=${sAccount}&company=${sCompany}`, {
 	          headers,
 	          method: "POST",
-	          body: querySite2
+	          body: querySite
 	        })
 	        .then(response => response.json())
             .then(function (json) {

@@ -1,0 +1,35 @@
+{
+	"equipments": [{
+		"code": "9502/0000003",
+		"name": "VESI St Denis - Test 4",
+		"id": "7B773F4AC911475CBC409524EA897C53",
+		"type": "Site",
+		"parentId": null,
+		"children": [{
+			"code": "9502/0000017/501",
+			"name": "Bât.15",
+			"id": "49B979ACC160496AAA4EB8773D81189A",
+			"type": "Batiment",
+			"parentId": "7B773F4AC911475CBC409524EA897C53",
+			"children": [{
+				"code": "9502/0000002/B01/R+01",
+                "name": "Test TAO Etage 1",
+                "id": "15F3B7E3ABA340E0BD7734E7791A4763",
+                "type": "Etage",
+                "parentId": "49B979ACC160496AAA4EB8773D81189A"
+			}, {
+				"code": "9502/0000002/B01/R+02",
+                "name": "Test TAO Etage 2",
+                "id": "B699FB94EEB24C178F961ED9303AAF86",
+                "type": "Etage",
+                "parentId": "49B979ACC160496AAA4EB8773D81189A"
+			}, {
+				"code": "9502/0000017/501/00NA",
+                "name": "NA",
+                "id": "42BA4643FCD446FE87CDD980AFA6310A",
+                "type": "Etage",
+                "parentId": "49B979ACC160496AAA4EB8773D81189A"
+			}]
+		}]
+	}]
+}
