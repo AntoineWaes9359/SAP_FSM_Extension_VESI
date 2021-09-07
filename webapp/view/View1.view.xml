@@ -21,7 +21,7 @@
 							</OverflowToolbar>
 						</ui:extension>
 						<ui:columns>
-							<ui:Column >
+							<ui:Column filterProperty="name">
 								<Label text="Description" />
 								<ui:template>
 									<Text text="{eqModel>name}" wrapping="false" />
