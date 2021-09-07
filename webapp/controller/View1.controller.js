@@ -82,8 +82,8 @@ sap.ui.define([
 			const { ShellSdk, SHELL_EVENTS } = FSMShell;
 			var oTreeTable = this.byId("equipTable");
 			var iIndex = oTreeTable.getSelectedIndices()[0];
-			var sEqID = oTreeTable.getRows()[1].getBindingContext("eqModel").getObject().id;
-			
+			var sEqID = oTreeTable.getRows()[iIndex].getBindingContext("eqModel").getObject().id;
+			console.log(sEqID)
 			// Init ShellSDk
 			const shellSdk = ShellSdk.init(window.parent, '*');
 			shellSdk.emit(SHELL_EVENTS.Version1.TO_APP,{
