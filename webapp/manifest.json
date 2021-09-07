@@ -68,6 +68,7 @@
 		},
 		"routing": {
 			"config": {
+				"fullWidth" : true,
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"async": true,
