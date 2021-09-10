@@ -16,6 +16,7 @@
 	},
 
 	"sap.ui": {
+		"fullWidth": true,
 		"technology": "UI5",
 		"icons": {
 			"icon": "",
@@ -67,6 +68,7 @@
 		},
 		"routing": {
 			"config": {
+				"fullWidth": true,
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"async": true,

@@ -78,6 +78,19 @@ sap.ui.define([
 
 			});
 		},
+		onSelectEq: function(oEvent){
+			const { ShellSdk, SHELL_EVENTS } = FSMShell;
+			var oTreeTable = this.byId("equipTable");
+			var iIndex = oTreeTable.getSelectedIndices()[0];
+			var sEqID = oTreeTable.getRows()[iIndex].getBindingContext("eqModel").getObject().id;
+			console.log(sEqID)
+			// Init ShellSDk
+			const shellSdk = ShellSdk.init(window.parent, '*');
+			shellSdk.emit(SHELL_EVENTS.Version1.TO_APP,{
+				id:'addEquipmentId',
+				payload:{id:sEqID}
+			});
+		},
 		
 		_getStructureOfEquip: function () {
 			//test with algorithm for the structure Site-Batiment-Etage-Local-Equipement

@@ -6,16 +6,22 @@
                 <content>
                     <ui:TreeTable
                     	id="equipTable"
-                    	selectionMode="None"
+                    	selectionMode="Single"
 						rows="{path:'eqModel>/equipments',parameters:{arrayNames:['children']}}"
 						ariaLabelledBy="title">
 						<ui:extension>
 							<OverflowToolbar style="Clear">
 								<Title id="title" text="Liste des équipements"/>
+								<ToolbarSpacer/>
+								<Button
+									type="Accept"
+									text="Valider la sélection"
+									press="onSelectEq">
+								</Button>
 							</OverflowToolbar>
 						</ui:extension>
 						<ui:columns>
-							<ui:Column >
+							<ui:Column filterProperty="name">
 								<Label text="Description" />
 								<ui:template>
 									<Text text="{eqModel>name}" wrapping="false" />
