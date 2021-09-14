@@ -84,31 +84,21 @@ sap.ui.define([
 
 		_getStructureOfEquip: function (json) {
 			// structure org Site-Batiment-Etage-Local-Equipement
-			//var oEquipmentNonSortedModel = new JSONModel();
-			// oEquipmentNonSortedModel.loadData("test/mockdata/SiteEquipment.json").then(function () {
 			var aSites, aBatiments, aEtages, aLocaux, aEquipments, aSitesStruct, aBatimentsStruct, aEtagesStruct, aLocauxStruct,
 				aEquipmentsStruct, aAllEquipments;
 			if (json.data.length > 0) {
 				aSites = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Site";
 				});
-				//test
-				console.log(aSites);
 				aBatiments = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Batiment";
 				});
-				//test
-				console.log(aBatiments);
 				aEtages = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Etage";
 				});
-				//test
-				console.log(aEtages);
 				aLocaux = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Local";
 				});
-				//test
-				console.log(aLocaux);
 				aEquipments = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Equipement";
 				});
@@ -119,19 +109,16 @@ sap.ui.define([
 					return oSite.eq;
 				});
 			}
-			console.log(aSitesStruct);
 			if (aBatiments.length > 0) {
 				aBatimentsStruct = aBatiments.map(function (oBat) {
 					return oBat.eq;
 				});
 			}
-			console.log(aBatimentsStruct);
 			if (aEtages.length > 0) {
 				aEtagesStruct = aEtages.map(function (oEtage) {
 					return oEtage.eq;
 				});
 			}
-			console.log(aEtagesStruct);
 			if (aLocaux.length > 0) {
 				aLocauxStruct = aLocaux.map(function (oLocal) {
 					return oLocal.eq;
@@ -143,7 +130,7 @@ sap.ui.define([
 				});
 			}
 
-			if (aSitesStruct.length > 0 && aBatimentsStruct.length > 0) {
+			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0) {
 				aSitesStruct.forEach(function (oSite) {
 					oSite.children = [];
 					var aChildrenBatiment = aBatimentsStruct.filter(function (oBatiment) {
@@ -152,7 +139,7 @@ sap.ui.define([
 					oSite.children = aChildrenBatiment;
 				});
 			}
-			if (aSitesStruct.length > 0 && aBatimentsStruct.length > 0 && aEtagesStruct.length > 0) {
+			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length > 0) {
 				aSitesStruct.forEach(function (oSite) {
 					if (oSite.children && oSite.children.length > 0) {
 						oSite.children.forEach(function (oBatiment) {
@@ -165,7 +152,7 @@ sap.ui.define([
 					}
 				});
 			}
-			if (aSitesStruct.length > 0 && aBatimentsStruct.length > 0 && aEtagesStruct.length > 0 && aLocauxStruct.length > 0) {
+			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length > 0 && aLocauxStruct && aLocauxStruct.length > 0) {
 				aSitesStruct.forEach(function (oSite) {
 					if (oSite.children && oSite.children.length > 0) {
 						oSite.children.forEach(function (oBatiment) {
@@ -182,8 +169,8 @@ sap.ui.define([
 					}
 				});
 			}
-			if (aSitesStruct.length > 0 && aBatimentsStruct.length > 0 && aEtagesStruct.length > 0 && aLocauxStruct.length > 0 &&
-				aEquipmentsStruct.length > 0) {
+			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length > 0 && aLocauxStruct && aLocauxStruct.length > 0 &&
+				aEquipmentsStruct && aEquipmentsStruct.length > 0) {
 				aSitesStruct.forEach(function (oSite) {
 					if (oSite.children && oSite.children.length > 0) {
 						oSite.children.forEach(function (oBatiment) {
@@ -214,7 +201,6 @@ sap.ui.define([
 				oSiteEquipment.setData(aAllEquipments);
 				this.getView().setModel(oSiteEquipment, "eqModel");
 			}
-			// }.bind(this));
 		},
 
 		_getEqData: function (sCloudHost, sAccount, sCompany) {
