@@ -84,7 +84,7 @@ sap.ui.define([
 
 		_getStructureOfEquip: function (json) {
 			// structure org Site-Batiment-Etage-Local-Equipement
-			var oEquipmentNonSortedModel = new JSONModel();
+			//var oEquipmentNonSortedModel = new JSONModel();
 			// oEquipmentNonSortedModel.loadData("test/mockdata/SiteEquipment.json").then(function () {
 			var aSites, aBatiments, aEtages, aLocaux, aEquipments, aSitesStruct, aBatimentsStruct, aEtagesStruct, aLocauxStruct,
 				aEquipmentsStruct, aAllEquipments;
@@ -92,15 +92,23 @@ sap.ui.define([
 				aSites = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Site";
 				});
+				//test
+				console.log(aSites);
 				aBatiments = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Batiment";
 				});
+				//test
+				console.log(aBatiments);
 				aEtages = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Etage";
 				});
+				//test
+				console.log(aEtages);
 				aLocaux = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Local";
 				});
+				//test
+				console.log(aLocaux);
 				aEquipments = json.data.filter(function (oEq) {
 					return oEq.eq.type === "Equipement";
 				});
@@ -111,16 +119,19 @@ sap.ui.define([
 					return oSite.eq;
 				});
 			}
+			console.log(aSitesStruct);
 			if (aBatiments.length > 0) {
 				aBatimentsStruct = aBatiments.map(function (oBat) {
 					return oBat.eq;
 				});
 			}
+			console.log(aBatimentsStruct);
 			if (aEtages.length > 0) {
 				aEtagesStruct = aEtages.map(function (oEtage) {
 					return oEtage.eq;
 				});
 			}
+			console.log(aEtagesStruct);
 			if (aLocaux.length > 0) {
 				aLocauxStruct = aLocaux.map(function (oLocal) {
 					return oLocal.eq;
