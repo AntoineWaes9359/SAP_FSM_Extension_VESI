@@ -10,9 +10,6 @@ sap.ui.define([
 		formatter: formatter,
 
 		onInit: function () {
-			/*test mode with mock data */
-			//this._getStructureOfEquip();
-			/*test mode with mock data */
 			const oView = this.getView();
 			const {
 				ShellSdk,
@@ -228,6 +225,7 @@ sap.ui.define([
 				})
 				.then(response => response.json())
 				.then(function (json) {
+					console.log(json);
 					this._getStructureOfEquip(json);
 					/*var oViewModel = new JSONModel({
 						equipments: json.data,
