@@ -1,8 +1,8 @@
 <mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:ui="sap.ui.table">
-    <Shell id="shell">
+    <!--<Shell id="shell">-->
         <App id="app">
             <pages>
-                <Page id="page" title="Attributes pulled from FSM shell app">
+                <Page id="page">
                 <content>
                     <ui:TreeTable
                     	id="equipTable"
@@ -39,5 +39,5 @@
                 </Page>
             </pages>
         </App>
-    </Shell>
+    <!--</Shell>-->
 </mvc:View>
