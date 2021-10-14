@@ -20,7 +20,7 @@
 								</Button>
 							</OverflowToolbar>
 						</ui:extension>
-						<:plugins>
+						<ui:plugins>
 							<plugins:MultiSelectionPlugin selectionMode="Single" selectionChange="onSelectOneSite"/>
 						</ui:plugins>
 						<ui:columns>
