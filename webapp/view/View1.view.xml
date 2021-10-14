@@ -1,4 +1,4 @@
-<mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:ui="sap.ui.table">
+<mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:ui="sap.ui.table" xmlns:plugins="sap.ui.table.plugins">
     <!--<Shell id="shell">-->
         <App id="app">
             <pages>
@@ -20,6 +20,9 @@
 								</Button>
 							</OverflowToolbar>
 						</ui:extension>
+						<ui:plugins>
+							<plugins:SelectionPlugin selectionChange="onSelectOneSite"/>
+						</ui:plugins>
 						<ui:columns>
 							<ui:Column filterProperty="name">
 								<Label text="Description" />

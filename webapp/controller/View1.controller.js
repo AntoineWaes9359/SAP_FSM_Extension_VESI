@@ -81,6 +81,10 @@ sap.ui.define([
 				}
 			});
 		},
+		onSelectOneSite: function(oEvt){
+			var oSource = oEvt.getSource();
+			var mParams = oEvt.getParameters();
+		},
 
 		_getStructureOfEquip: function (json) {
 			// structure org Site-Batiment-Etage-Local-Equipement
