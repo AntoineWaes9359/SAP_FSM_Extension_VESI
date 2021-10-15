@@ -82,8 +82,19 @@ sap.ui.define([
 			});
 		},
 		onSelectOneSite: function(oEvt){
-			var oSource = oEvt.getSource();
-			var mParams = oEvt.getParameters();
+			var aIndices, iRow, sPath, oSelected, sEquipID;
+			aIndices = oEvt.getParameter("rowIndices");
+			iRow = aIndices.length === 1 ? aIndices[0]:aIndices[1];
+			sPath = this.byId("equipTable").getContextByIndex(iRow).sPath;
+			oSelected = this.getView().getModel("eqModel").getProperty(sPath);
+			sEquipID = oSelected.id;
+			const shellSdk = ShellSdk.init(window.parent, '*');
+			shellSdk.emit(SHELL_EVENTS.Version1.TO_APP, {
+				id: 'addEquipmentId',
+				payload: {
+					id: sEquipID
+				}
+			});
 		},
 
 		_getStructureOfEquip: function (json) {
