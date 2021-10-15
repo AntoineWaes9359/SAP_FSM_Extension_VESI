@@ -83,6 +83,10 @@ sap.ui.define([
 		},
 		onSelectOneSite: function(oEvt){
 			var aIndices, iRow, sPath, oSelected, sEquipID;
+			const {
+				ShellSdk,
+				SHELL_EVENTS
+			} = FSMShell;
 			aIndices = oEvt.getParameter("rowIndices");
 			iRow = aIndices.length === 1 ? aIndices[0]:aIndices[1];
 			sPath = this.byId("equipTable").getContextByIndex(iRow).sPath;
