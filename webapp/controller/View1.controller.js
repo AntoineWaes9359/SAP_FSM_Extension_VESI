@@ -11,6 +11,7 @@ sap.ui.define([
 
 		onInit: function () {
 			const oView = this.getView();
+			this.sEquipID = "";
 			const {
 				ShellSdk,
 				SHELL_EVENTS
@@ -63,43 +64,31 @@ sap.ui.define([
 
 			});
 		},
-		onSelectEq: function (oEvent) {
-			const {
-				ShellSdk,
-				SHELL_EVENTS
-			} = FSMShell;
-			var oTreeTable = this.byId("equipTable");
-			var iIndex = oTreeTable.getSelectedIndices()[0];
-			var sEqID = oTreeTable.getRows()[iIndex].getBindingContext("eqModel").getObject().id;
-			console.log(sEqID)
-				// Init ShellSDk
-			const shellSdk = ShellSdk.init(window.parent, '*');
-			shellSdk.emit(SHELL_EVENTS.Version1.TO_APP, {
-				id: 'addEquipmentId',
-				payload: {
-					id: sEqID
-				}
-			});
+		onSelectEq: function () {
+			if (this.sEquipID.length !== 0) {
+				const {
+					ShellSdk,
+					SHELL_EVENTS
+				} = FSMShell;
+				const shellSdk = ShellSdk.init(window.parent, '*');
+				shellSdk.emit(SHELL_EVENTS.Version1.TO_APP, {
+					id: 'addEquipmentId',
+					payload: {
+						id: sEqID
+					}
+				});
+			}
 		},
-		onSelectOneSite: function(oEvt){
+		onSelectOneSite: function (oEvt) {
 			var aIndices, iRow, sPath, oSelected, sEquipID;
-			const {
-				ShellSdk,
-				SHELL_EVENTS
-			} = FSMShell;
 			aIndices = oEvt.getParameter("rowIndices");
-			iRow = aIndices.length === 1 ? aIndices[0]:aIndices[1];
+			iRow = aIndices.length === 1 ? aIndices[0] : aIndices[1];
 			sPath = this.byId("equipTable").getContextByIndex(iRow).sPath;
-			//this.byId("equipTable").setRowSettings(new RowSettings({highlight: "Success"}));
 			oSelected = this.getView().getModel("eqModel").getProperty(sPath);
-			sEquipID = oSelected.id;
-			const shellSdk = ShellSdk.init(window.parent, '*');
-			shellSdk.emit(SHELL_EVENTS.Version1.TO_APP, {
-				id: 'addEquipmentId',
-				payload: {
-					id: sEquipID
-				}
-			});
+			this.setEquipID(oSelected.id);
+		},
+		setEquipID: function (sEquipID) {
+			this.sEquipID = sEquipID;
 		},
 
 		_getStructureOfEquip: function (json) {
@@ -159,7 +148,8 @@ sap.ui.define([
 					oSite.children = aChildrenBatiment;
 				});
 			}
-			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length > 0) {
+			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length >
+				0) {
 				aSitesStruct.forEach(function (oSite) {
 					if (oSite.children && oSite.children.length > 0) {
 						oSite.children.forEach(function (oBatiment) {
@@ -172,7 +162,8 @@ sap.ui.define([
 					}
 				});
 			}
-			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length > 0 && aLocauxStruct && aLocauxStruct.length > 0) {
+			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length >
+				0 && aLocauxStruct && aLocauxStruct.length > 0) {
 				aSitesStruct.forEach(function (oSite) {
 					if (oSite.children && oSite.children.length > 0) {
 						oSite.children.forEach(function (oBatiment) {
@@ -189,7 +180,8 @@ sap.ui.define([
 					}
 				});
 			}
-			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length > 0 && aLocauxStruct && aLocauxStruct.length > 0 &&
+			if (aSitesStruct && aSitesStruct.length > 0 && aBatimentsStruct && aBatimentsStruct.length > 0 && aEtagesStruct && aEtagesStruct.length >
+				0 && aLocauxStruct && aLocauxStruct.length > 0 &&
 				aEquipmentsStruct && aEquipmentsStruct.length > 0) {
 				aSitesStruct.forEach(function (oSite) {
 					if (oSite.children && oSite.children.length > 0) {
@@ -231,7 +223,7 @@ sap.ui.define([
 				'X-Client-Version': '1.0.0',
 				'Authorization': `bearer ${sessionStorage.getItem('token')}`,
 			};
-		
+
 			const querySite =
 				"{\"query\": \"select eq.id, eq.code, eq.name, eq.parentId, eq.type from Equipment eq where eq.type is not null and eq.type in ('Site', 'Batiment', 'Etage', 'Local', 'Equipement') \"}";
 			//var sQuery = "{\"query\": \"SELECT it.externalId AS 'externalID', it.name AS 'name' , SUM(mat.quantity) as 'FitterQty' FROM Material mat JOIN Activity ac ON mat.object.objectId=ac.id JOIN ServiceCall sc ON sc.id=ac.object.objectId JOIN Item it ON mat.item = it.id JOIN Person pers ON pers.id = mat.createPerson WHERE sc.id =\'" + scID + "\' AND pers.externalResource = FALSE GROUP BY externalID, name\"}"
