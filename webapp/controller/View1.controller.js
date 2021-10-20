@@ -66,6 +66,7 @@ sap.ui.define([
 		},
 		onSelectEq: function () {
 			if (this.sEquipID.length !== 0) {
+				var sEqID = this.sEquipID;
 				const {
 					ShellSdk,
 					SHELL_EVENTS
