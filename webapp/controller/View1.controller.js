@@ -90,6 +90,7 @@ sap.ui.define([
 			aIndices = oEvt.getParameter("rowIndices");
 			iRow = aIndices.length === 1 ? aIndices[0]:aIndices[1];
 			sPath = this.byId("equipTable").getContextByIndex(iRow).sPath;
+			//this.byId("equipTable").setRowSettings(new RowSettings({highlight: "Success"}));
 			oSelected = this.getView().getModel("eqModel").getProperty(sPath);
 			sEquipID = oSelected.id;
 			const shellSdk = ShellSdk.init(window.parent, '*');
