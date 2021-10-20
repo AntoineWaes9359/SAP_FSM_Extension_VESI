@@ -21,7 +21,7 @@
 							</OverflowToolbar>
 						</ui:extension>
 						<ui:plugins>
-							<plugins:MultiSelectionPlugin selectionMode="Single" selectionChange="onSelectOneSite"/>
+							<plugins:MultiSelectionPlugin enableNotification="true" selectionMode="Single" selectionChange="onSelectOneSite"/>
 						</ui:plugins>
 						<ui:columns>
 							<ui:Column filterProperty="name">
