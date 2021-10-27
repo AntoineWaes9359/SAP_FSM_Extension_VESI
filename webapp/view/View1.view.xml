@@ -1,46 +1,40 @@
 <mvc:View controllerName="testTree.testTree.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:ui="sap.ui.table" xmlns:plugins="sap.ui.table.plugins">
     <!--<Shell id="shell">-->
         <App id="app">
-            <pages>
-                <Page id="page">
-                <content>
-                    <ui:TreeTable
-                    	id="equipTable"
-                    	selectionMode="Single"
-						rows="{path:'eqModel>/equipments',parameters:{arrayNames:['children']}}"
-						ariaLabelledBy="title">
-						<ui:extension>
-							<OverflowToolbar style="Clear">
-								<Title id="title" text="Liste des équipements"/>
-								<ToolbarSpacer/>
-								<Button
-									type="Accept"
-									text="Valider la sélection"
-									press="onSelectEq">
-								</Button>
-							</OverflowToolbar>
-						</ui:extension>
-						<ui:plugins>
-							<plugins:MultiSelectionPlugin enableNotification="true" selectionMode="Single" selectionChange="onSelectOneSite"/>
-						</ui:plugins>
-						<ui:columns>
-							<ui:Column filterProperty="name">
-								<Label text="Description" />
-								<ui:template>
-									<Text text="{eqModel>name}" wrapping="false" />
-								</ui:template>
-							</ui:Column>
-							<ui:Column>
-								<Label text="Utilisation" />
-								<ui:template>
-									<Text text="{eqModel>type}"/>
-								</ui:template>
-							</ui:Column>
-						</ui:columns>
-					</ui:TreeTable>
-                </content>
-                </Page>
-            </pages>
+            <ui:TreeTable
+            	id="equipTable"
+            	selectionMode="Single"
+				rows="{path:'eqModel>/equipments',parameters:{arrayNames:['children']}}"
+				ariaLabelledBy="title">
+				<ui:extension>
+					<OverflowToolbar style="Clear">
+						<Title id="title" text="Liste des équipements"/>
+						<ToolbarSpacer/>
+						<Button
+							type="Accept"
+							text="Valider la sélection"
+							press="onSelectEq">
+						</Button>
+					</OverflowToolbar>
+				</ui:extension>
+				<ui:plugins>
+					<plugins:MultiSelectionPlugin enableNotification="true" selectionMode="Single" selectionChange="onSelectOneSite"/>
+				</ui:plugins>
+				<ui:columns>
+					<ui:Column filterProperty="name">
+						<Label text="Description" />
+						<ui:template>
+							<Text text="{eqModel>name}" wrapping="false" />
+						</ui:template>
+					</ui:Column>
+					<ui:Column>
+						<Label text="Utilisation" />
+						<ui:template>
+							<Text text="{eqModel>type}"/>
+						</ui:template>
+					</ui:Column>
+				</ui:columns>
+			</ui:TreeTable>
         </App>
     <!--</Shell>-->
 </mvc:View>
