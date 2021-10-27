@@ -5,6 +5,7 @@
             	id="equipTable"
             	selectionMode="Single"
 				rows="{path:'eqModel>/equipments',parameters:{arrayNames:['children']}}"
+				filter="onCustomTableFilter"
 				ariaLabelledBy="title">
 				<ui:extension>
 					<OverflowToolbar style="Clear">

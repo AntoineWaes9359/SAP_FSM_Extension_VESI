@@ -2,14 +2,17 @@ sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"testTree/testTree/model/formatter",
 	"sap/ui/core/mvc/Controller",
+	"sap/ui/model/Filter",
+	"sap/ui/model/FilterOperator",
 	"sap/coresystems/fsm-shell"
-], function (JSONModel, formatter, Controller) {
+], function (JSONModel, formatter, Controller, Filter, FilterOperator) {
 	"use strict";
 
 	return Controller.extend("testTree.testTree.controller.View1", {
 		formatter: formatter,
 
 		onInit: function () {
+			this._getStructureOfEquipMockData();
 			const oView = this.getView();
 			this.sEquipID = "";
 			const {
@@ -88,10 +91,79 @@ sap.ui.define([
 			oSelected = this.getView().getModel("eqModel").getProperty(sPath);
 			this.setEquipID(oSelected.id);
 		},
+		onCustomTableFilter: function (oEvent) {
+			oEvent.preventDefault();
+			const oTable = this.byId("equipTable");
+			oTable.getColumns().forEach(function (oEl) {
+				oEl.setFiltered(false);
+			});
+			oEvent.getParameter("column").setFiltered(true);
+			//////format full json to add site name to each level
+			//var oEqModel = this.getView().getModel("eqModel");
+			//var aList = oEqModel.getData().equipments;
+			
+			
+			
+			/*this.fnAddParentNameToChildren = function(oParent){
+				this.iCurrentIndex = 0;
+				if(this.bEnd){
+					this.sParentName = "";
+					this.bEnd = false; 
+				}
+				if(oParent && oParent.children && oParent.children.length > 0){
+					this.iChildrenNumber = oParent.children.length;
+					if(!this.sParentName){
+						this.sParentName = ""
+					}
+					this.sParentName += oParent.name;
+					oParent.children.forEach(function(oCurrentChild, index){
+						this.iCurrentIndex = index;
+						oCurrentChild.nameForFilter = this.sParentName;
+						
+						this.fnAddParentNameToChildren(oCurrentChild);
+					}.bind(this))	
+				} else if(!oParent.children && this.iCurrentIndex === this.iChildrenNumber){
+					var bEnd = true;	
+				}
+			};
+			
+			aList.forEach(function(oCurrentParent){
+				this.sParentName = ""
+				this.fnAddParentNameToChildren(oCurrentParent);
+			}.bind(this));*/
+			
+			//////
+			this._oTableFilterName = new Filter("name"/*oEvent.getParameter("column").getFilterProperty()*/, FilterOperator.Contains, oEvent.getParameter(
+				"value"));
+			this._oTableFilterNameForFilter = new Filter("nameForFilter"/*oEvent.getParameter("column").getFilterProperty()*/, FilterOperator.Contains, oEvent.getParameter(
+				"value"));
+			var aFilters = [];
+			aFilters.push(this._oTableFilterName);
+			aFilters.push(this._oTableFilterNameForFilter);
+			
+			var oFinalFilter = new Filter({
+				filters: aFilters,
+				and: false
+			});
+			
+			var oBinding = oTable.getBinding("rows");
+			oBinding.filter(oFinalFilter);
+		},
 		setEquipID: function (sEquipID) {
 			this.sEquipID = sEquipID;
 		},
-
+		
+		_getStructureOfEquipMockData: function(){
+			var oSiteEquipment = new JSONModel();
+			oSiteEquipment.loadData("test/mockdata/SiteEquipmentSorted.json");
+			if(this.getView().getModel("eqModel")){
+				this.getView().getModel("eqModel").setData(oSiteEquipment.getData());
+			}else{
+				this.getView().setModel(oSiteEquipment, "eqModel");
+			}
+				//test with mock data, block comment temporaily
+		},
+		
 		_getStructureOfEquip: function (json) {
 			// structure org Site-Batiment-Etage-Local-Equipement
 			var aSites, aBatiments, aEtages, aLocaux, aEquipments, aSitesStruct, aBatimentsStruct, aEtagesStruct, aLocauxStruct,
@@ -204,6 +276,31 @@ sap.ui.define([
 					}
 				});
 			}
+			
+			//BEGIN - ADD NBO 27/10/2021
+			this.fnAddParentNameToChildren = function(oParent){
+				this.iCurrentIndex = 0;
+				if(oParent && oParent.children && oParent.children.length > 0){
+					this.iChildrenNumber = oParent.children.length;
+					if(!this.sParentName){
+						this.sParentName = ""
+					}
+					this.sParentName += oParent.name;
+					oParent.children.forEach(function(oCurrentChild, index){
+						this.iCurrentIndex = index;
+						oCurrentChild.nameForFilter = this.sParentName;
+						
+						this.fnAddParentNameToChildren(oCurrentChild);
+					}.bind(this))	
+				}
+			};
+			
+			aSitesStruct.forEach(function(oCurrentParent){
+				this.sParentName = ""
+				this.fnAddParentNameToChildren(oCurrentParent);
+			}.bind(this));
+			//END - ADD NBO 27/10/2021
+			
 			aAllEquipments = {
 				"equipments": aSitesStruct
 			};
