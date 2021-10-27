@@ -12,7 +12,7 @@ sap.ui.define([
 		formatter: formatter,
 
 		onInit: function () {
-			this._getStructureOfEquipMockData();
+			//this._getStructureOfEquipMockData();
 			const oView = this.getView();
 			this.sEquipID = "";
 			const {
